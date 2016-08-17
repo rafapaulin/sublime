@@ -1,0 +1,21 @@
+[
+// standard
+	{ "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
+	{ "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
+	{ "keys": ["ctrl+'"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	{ "keys": ["ctrl+alt+a"], "command": "find_all_under" },
+
+//Origami 
+	// move to pane (or create a new one if move "off screen")
+	{ "keys": ["alt+shift+up"], "command": "travel_to_pane", "args": {"direction": "up"} },
+	{ "keys": ["alt+shift+right"], "command": "travel_to_pane", "args": {"direction": "right"} },
+	{ "keys": ["alt+shift+down"], "command": "travel_to_pane", "args": {"direction": "down"} },
+	{ "keys": ["alt+shift+left"], "command": "travel_to_pane", "args": {"direction": "left"} },
+
+	// destroy pane
+	{ "keys": ["alt+shift+d"], "command": "destroy_pane", "args": {"direction": "self"} },
+
+// PHP Companion
+	{ "keys": ["f7"], "command": "insert_php_constructor_property"},
+	{ "keys": ["f4"], "command": "import_namespace"},
+]

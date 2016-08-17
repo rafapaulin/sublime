@@ -1,0 +1,41 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"Babel",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"Colorsublime",
+		"CSS3",
+		"Ecmascript Syntax",
+		"Emmet",
+		"GitGutter-Edge",
+		"HTML5",
+		"HTMLEntity Snippets",
+		"Material Theme",
+		"Mybb Template Editor",
+		"Origami",
+		"Package Control",
+		"PackageResourceViewer",
+		"PHP Companion",
+		"Sass",
+		"SideBarEnhancements",
+		"SnippetMaker",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-php",
+		"SublimeREPL",
+		"Twig"
+	],
+	"repositories":
+	[
+		"https://github.com/i-akhmadullin/Sublime-CSS3"
+	]
+}
