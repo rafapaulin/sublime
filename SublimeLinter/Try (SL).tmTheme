@@ -532,6 +532,19 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>JS Language</string>
+			<key>scope</key>
+			<string>variable.language.arguments.es, variable.language.prototype.es</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#967EFB</string>
+				<key>fontStyle</key>
+				<string> bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>JSON 1st Level Key</string>
 			<key>scope</key>
 			<string>meta.structure.dictionary.json</string>
@@ -1090,28 +1103,15 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 				<string>#D9B523</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS Language</string>
-			<key>scope</key>
-			<string>variable.language.arguments.es, variable.language.prototype.es</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#967EFB</string>
-				<key>fontStyle</key>
-				<string> bold</string>
-			</dict>
-		</dict>
 	<dict>
             <key>name</key>
-            <string>SublimeLinter Error</string>
+            <string>SublimeLinter Warning</string>
             <key>scope</key>
-            <string>sublimelinter.mark.error</string>
+            <string>sublimelinter.mark.warning</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#D02000</string>
+                <string>#DDB700</string>
             </dict>
         </dict><dict>
             <key>name</key>
@@ -1125,13 +1125,13 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
             </dict>
         </dict><dict>
             <key>name</key>
-            <string>SublimeLinter Warning</string>
+            <string>SublimeLinter Error</string>
             <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
+            <string>sublimelinter.mark.error</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#DDB700</string>
+                <string>#D02000</string>
             </dict>
         </dict></array>
 	<key>uuid</key>
