@@ -7,7 +7,6 @@
 	[
 		"AdvancedNewFile",
 		"All Autocomplete",
-		"Babel",
 		"BracketHighlighter",
 		"Color Highlighter",
 		"ColorPicker",
@@ -26,12 +25,10 @@
 		"PHP Companion",
 		"Sass",
 		"SideBarEnhancements",
-		"SnippetMaker",
 		"SublimeLinter",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
-		"SublimeREPL",
 		"Twig"
 	],
 	"repositories":

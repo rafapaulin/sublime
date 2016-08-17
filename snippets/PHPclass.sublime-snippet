@@ -7,7 +7,7 @@ class ${1:ClassName} ${2:extends }${3:InheritedClass}{
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>class</tabTrigger>
-  <description>PHP Class</description>
+  <description>New Class</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php</scope>
+  <scope>source.php, source.js, source.es</scope>
 </snippet>
