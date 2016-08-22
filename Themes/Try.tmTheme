@@ -336,7 +336,7 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 			<key>name</key>
 			<string>JS Operators</string>
 			<key>scope</key>
-			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, constant.language.nan.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.other.rest.parameter.es, keyword.control.with.es, keyword.control.loop.in.es, keyword.operator.or.regexp, string.regexp.flags.es, keyword.control.flow.throw.es, support.function.node.require.es</string>
+			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.other.rest.parameter.es, keyword.control.with.es, keyword.control.loop.in.es, keyword.operator.or.regexp, string.regexp.flags.es, keyword.control.flow.throw.es, support.function.node.require.es, storage.modifier.async.es</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -390,7 +390,7 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 			<key>name</key>
 			<string>JS Variable</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.es, variable.other.readwrite.initCap.es, variable.other.readwrite.import.es</string>
+			<string>variable.other.readwrite.es, variable.other.readwrite.initCap.es, variable.other.readwrite.import.es, variable.other.readwrite.property.shorthand.es</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -436,9 +436,9 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS Bool KWs</string>
+			<string>JS Constants</string>
 			<key>scope</key>
-			<string>constant.language.boolean.true.es, constant.language.boolean.false.es, constant.language.undefined.es</string>
+			<string>constant.language.boolean.true.es, constant.language.boolean.false.es, constant.language.undefined.es, constant.language.null.es, constant.language.nan.es</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -986,7 +986,7 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 			<key>name</key>
 			<string>Twig Keywords</string>
 			<key>scope</key>
-			<string>keyword.control.twig, keyword.operator.comparison.twig, keyword.operator.logical.twig</string>
+			<string>keyword.control.twig, keyword.operator.comparison.twig, keyword.operator.logical.twig, keyword.operator.assignment.twig</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
