@@ -2,6 +2,8 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"BracketHighlighter",
+		"GitGutter-Edge"
 	],
 	"installed_packages":
 	[
