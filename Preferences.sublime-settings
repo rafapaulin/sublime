@@ -12,7 +12,9 @@
 	"ignored_packages":
 	[
 		"ActionScript",
+		"BracketHighlighter",
 		"CSS",
+		"GitGutter-Edge",
 		"Mybb Template Editor",
 		"Vintage"
 	],
