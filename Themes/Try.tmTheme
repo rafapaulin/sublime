@@ -42,7 +42,7 @@
 			<key>name</key>
 			<string>Def, Pont, Sep, etc.</string>
 			<key>scope</key>
-			<string>source.php, source.js source.es, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, source.css, punctuation.section.property-list.begin.css, punctuation.section.property-list.end.css, punctuation.separator.key-value.css, punctuation.terminator.rule.css, punctuation.section.function.begin.css, punctuation.section.function.end.css, meta.function.rgba.css, meta.property-value.transition.css, meta.function.linear-gradient.css, meta.property-value.box-shadow.css, meta.property-value.background-image.css, punctuation.separator.dictionary.pair.json, punctuation.definition.string.begin.html, punctuation.definition.string.end.html, punctuation.section.tag.twig, punctuation.separator.property.twig</string>
+			<string>source.php, source.js source.es, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, source.css, punctuation.section.property-list.begin.css, punctuation.section.property-list.end.css, punctuation.separator.key-value.css, punctuation.terminator.rule.css, punctuation.section.function.begin.css, punctuation.section.function.end.css, meta.function.rgba.css, meta.property-value.transition.css, meta.function.linear-gradient.css, meta.property-value.box-shadow.css, meta.property-value.background-image.css, punctuation.separator.dictionary.pair.json, punctuation.definition.string.begin.html, punctuation.definition.string.end.html, punctuation.section.tag.twig, punctuation.separator.property.twig, punctuation.definition.string.begin.php, punctuation.definition.string.end.php, punctuation.definition.string.begin.js, punctuation.definition.string.end.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -64,7 +64,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, string.quoted.double.php, string.quoted.double.css, string.quoted.single.css, meta.function.url.css, string.unquoted.html, string.quoted.single.twig, string.quoted.double.twig</string>
+			<string>string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, string.quoted.double.php, string.quoted.double.css, string.quoted.single.css, meta.function.url.css, string.unquoted.html, string.quoted.single.twig, string.quoted.double.twig, string.unquoted.attribute-value.css</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -137,7 +137,7 @@
 			<string>Html Special Tags</string>
 			<key>scope</key>
 			<string>entity.name.tag.html, entity.name.tag.style.html,
-entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype.html, entity.name.tag.script.html</string>
+entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype.html, entity.name.tag.script.html, entity.other.attribute-name.event.html</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -262,7 +262,7 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 			<key>name</key>
 			<string>CSS Support Functions</string>
 			<key>scope</key>
-			<string>support.function.rgba.css, support.function.calc.css, support.function.url.css, support.function.linear-gradient.css, support.function.misc.css, support.function.rotate.css, support.function.translate.css, support.function.image-set.css, support.function.polygon.css, support.function.inset.css, support.function.ellipse-circle.css, support.function.repeat.css, support.function.minmax.css, support.function.swash-styleset-stylistic-ornaments-character-variant-annotation.css, support.function.radial-gradient.css, support.function.translate-z.css</string>
+			<string>support.function.rgba.css, support.function.calc.css, support.function.url.css, support.function.linear-gradient.css, support.function.misc.css, support.function.rotate.css, support.function.translate.css, support.function.image-set.css, support.function.polygon.css, support.function.inset.css, support.function.ellipse-circle.css, support.function.repeat.css, support.function.minmax.css, support.function.swash-styleset-stylistic-ornaments-character-variant-annotation.css, support.function.radial-gradient.css, support.function.translate-z.css, support.type.object.dom.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -321,9 +321,9 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS function &amp; class KWs, Methods</string>
+			<string>JS function &amp; class KWs</string>
 			<key>scope</key>
-			<string>storage.type.function.js, storage.type.function.expression.es, storage.type.function.js, storage.type.function.es, storage.type.class.es, storage.type.function.arrow.es</string>
+			<string>storage.type.function.js, storage.type.function.expression.es, storage.type.function.js, storage.type.function.es, storage.type.class.es, storage.type.function.arrow.es, meta.block.js storage.type.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -336,7 +336,7 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 			<key>name</key>
 			<string>JS Operators</string>
 			<key>scope</key>
-			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.other.rest.parameter.es, keyword.control.with.es, keyword.control.loop.in.es, keyword.operator.or.regexp, string.regexp.flags.es, keyword.control.flow.throw.es, support.function.node.require.es, storage.modifier.async.es</string>
+			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.other.rest.parameter.es, keyword.control.with.es, keyword.control.loop.in.es, keyword.operator.or.regexp, string.regexp.flags.es, keyword.control.flow.throw.es, support.function.node.require.es, storage.modifier.async.es, keyword.operator.assignment.js, keyword.control.conditional.js, keyword.operator.js, keyword.operator.comparison.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -390,7 +390,7 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 			<key>name</key>
 			<string>JS Variable</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.es, variable.other.readwrite.initCap.es, variable.other.readwrite.import.es, variable.other.readwrite.property.shorthand.es</string>
+			<string>variable.other.readwrite.es, variable.other.readwrite.initCap.es, variable.other.readwrite.import.es, variable.other.readwrite.property.shorthand.es, variable.other.readwrite.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -451,7 +451,7 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 			<key>name</key>
 			<string>JS Function Name</string>
 			<key>scope</key>
-			<string>entity.name.function.es, meta.function.js, entity.name.function.js, meta.symbol-helper.function.es, entity.name.function.es, meta.invocation.es, meta.function-call.method.js, entity.name.method.js, entity.name.method.es</string>
+			<string>entity.name.function.es, meta.function.js, entity.name.function.js, meta.symbol-helper.function.es, entity.name.function.es, meta.invocation.es, meta.function-call.method.js, entity.name.method.js, entity.name.method.es, variable.function.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -464,7 +464,7 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 			<key>name</key>
 			<string>JS Object Property</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.property.es, constant.other.object.key.js, string.unquoted.label.js, variable.other.readwrite.property.object-literal.es</string>
+			<string>variable.other.readwrite.property.es, constant.other.object.key.js, string.unquoted.label.js, variable.other.readwrite.property.object-literal.es, meta.property.object.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1118,6 +1118,30 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 				<string>#FFD900</string>
 				<key>fontStyle</key>
 				<string> italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS Variable ALLCAPS</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.allCap.es, variable.other.object.js</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+				<key>foreground</key>
+				<string>#ADD3FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Embedded tags</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C47FDB</string>
 			</dict>
 		</dict>
 	</array>
