@@ -25,28 +25,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Basic Text</string>
-			<key>scope</key>
-			<string>text.html.basic</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFFFFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Def, Pont, Sep, etc.</string>
-			<key>scope</key>
-			<string>source.php, source.js source.es, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, source.css, punctuation.section.property-list.begin.css, punctuation.section.property-list.end.css, punctuation.separator.key-value.css, punctuation.terminator.rule.css, punctuation.section.function.begin.css, punctuation.section.function.end.css, meta.function.rgba.css, meta.property-value.transition.css, meta.function.linear-gradient.css, meta.property-value.box-shadow.css, meta.property-value.background-image.css, punctuation.separator.dictionary.pair.json, punctuation.definition.string.begin.html, punctuation.definition.string.end.html, punctuation.section.tag.twig, punctuation.separator.property.twig, punctuation.definition.string.begin.php, punctuation.definition.string.end.php, punctuation.definition.string.begin.js, punctuation.definition.string.end.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#BBBBBB</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
 			<string>comment.block, comment.line.es, comment.block.es, meta.comment.border.es, punctuation.definition.comment.end.es, comment.line.double-slash.php, comment.block.php, comment.line.double-slash.js, comment.block.json</string>
@@ -58,9 +36,31 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Basic Text</string>
+			<key>scope</key>
+			<string>text.html.basic, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, source.js, source.es, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Def, Pont, Sep, etc.</string>
+			<key>scope</key>
+			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BBBBBB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, string.quoted.double.php, string.quoted.double.css, string.quoted.single.css, meta.function.url.css, string.unquoted.html, string.quoted.single.twig, string.quoted.double.twig, string.unquoted.attribute-value.css</string>
+			<string>string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.double.php, meta.string-contents.quoted.double.php, string.quoted.double.css, string.quoted.single.css, string.quoted.single.twig, string.quoted.double.twig</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -71,9 +71,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Escaped Chars</string>
+			<string>String Escaped Chars</string>
 			<key>scope</key>
-			<string>constant.character.escape.es, constant.character.escape.php, constant.character.escape.pointless.regexp, string.regexp.es constant.character.escape.pointless.regexp</string>
+			<string>constant.character.escape.es</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -110,7 +110,7 @@
 			<key>name</key>
 			<string>Html Attribute</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.html, meta.attribute-with-value.html, entity.other.attribute-name.style.html</string>
+			<string>entity.other.attribute-name.html, meta.attribute-with-value.htmla</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -121,7 +121,7 @@
 			<key>name</key>
 			<string>Html Element</string>
 			<key>scope</key>
-			<string>entity.name.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.inline.a.html, entity.name.tag.inline.any.html, entity.name.tag.inline.form.html, entity.name.tag.structure.any.html, entity.name.tag.other.html, entity.name.tag.html, text.html.twig meta.tag.any.html entity.name.tag.html</string>
+			<string>entity.name.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.inline.a.html, entity.name.tag.inline.any.html, entity.name.tag.inline.form.html, entity.name.tag.structure.any.html, entity.name.tag.other.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -130,10 +130,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Html Special Tags</string>
+			<string>Html &lt;script&gt; &amp; &lt;style&gt;</string>
 			<key>scope</key>
-			<string>entity.name.tag.html, entity.name.tag.style.html,
-entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype.html, entity.name.tag.script.html, entity.other.attribute-name.event.html</string>
+			<string>entity.name.tag.html, entity.name.tag.style.html, entity.name.tag.script.html</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -144,169 +143,9 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Html Attribute</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.htmla</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#5DC9DE</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS Class</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.class.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#16946C</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS ID</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.id.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D9811C</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS Html Element</string>
-			<key>scope</key>
-			<string>entity.name.tag.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C47FDB</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS Attribute</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#6079DE</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS Property</string>
-			<key>scope</key>
-			<string>support.type.property-name.css, support.type.property-name.media.css, support.type.property-name.custom.css, support.constant.property-name.css, meta.attribute-with-value.style.html source.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C7A27F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS Constant Numeric</string>
-			<key>scope</key>
-			<string>constant.numeric.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#49BD40</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS Unity</string>
-			<key>scope</key>
-			<string>keyword.other.unit.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#B34F97</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS Constants</string>
-			<key>scope</key>
-			<string>support.constant.property-value.css, support.constant.media.css, support.constant.custom-media-query-name.css, support.constant.color.w3c-color-name.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#4AB8B1</string>
-				<key>fontStyle</key>
-				<string>bold italic</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS RGB</string>
-			<key>scope</key>
-			<string>constant.other.color.rgb-value.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ADD3FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS Support Functions</string>
-			<key>scope</key>
-			<string>support.function.rgba.css, support.function.calc.css, support.function.url.css, support.function.linear-gradient.css, support.function.misc.css, support.function.rotate.css, support.function.translate.css, support.function.image-set.css, support.function.polygon.css, support.function.inset.css, support.function.ellipse-circle.css, support.function.repeat.css, support.function.minmax.css, support.function.swash-styleset-stylistic-ornaments-character-variant-annotation.css, support.function.radial-gradient.css, support.function.translate-z.css, support.type.object.dom.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#99D49F</string>
-				<key>fontStyle</key>
-				<string> bold </string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS Pseudos</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C9B21E</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS Operators &amp; At-Rules</string>
-			<key>scope</key>
-			<string>keyword.operator.combinator.css, keyword.operator.arithmetic.css, keyword.control.at-rule.media.css, keyword.control.at-rule.font-face.css, keyword.control.at-rule.charset.css, keyword.control.at-rule.import.css, keyword.control.at-rule.namespace.css, keyword.control.at-rule.supports.css, keyword.control.at-rule.page.css, keyword.control.at-rule.keyframes.css, keyword.control.at-rule.viewport.css, keyword.control.at-rule.counter-style.css, keyword.control.at-rule.font-feature-values.css, keyword.operator.logic.media.css, keyword.other.important.css, punctuation.operator.function.css, entity.other.attribute-name.keyframes-selector.css, keyword.control.at-rule.custom-media.css, keyword.control.at-rule.custom-media.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string> bold</string>
-				<key>foreground</key>
-				<string>#D66262</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS Identifiers</string>
-			<key>scope</key>
-			<string>string.unquoted.identifier.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#03DDFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>JS var, let, const KWs</string>
 			<key>scope</key>
-			<string>storage.type.variable.let.es, storage.type.variable.var.es, storage.type.constant.es</string>
+			<string>storage.type.variable.let.es, storage.type.variable.var.es, storage.type.constant.es, storage.type.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -317,9 +156,9 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS function &amp; class KWs</string>
+			<string>JS function &amp; class KWs, Methods</string>
 			<key>scope</key>
-			<string>storage.type.function.js, storage.type.function.expression.es, storage.type.function.js, storage.type.function.es, storage.type.class.es, storage.type.function.arrow.es, meta.block.js storage.type.js</string>
+			<string>storage.type.function.js, storage.type.function.expression.es, storage.type.function.js, storage.type.function.es, storage.type.class.es, entity.name.method.js, entity.name.method.es, storage.type.function.arrow.es</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -332,7 +171,7 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 			<key>name</key>
 			<string>JS Operators</string>
 			<key>scope</key>
-			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.other.rest.parameter.es, keyword.control.with.es, keyword.control.loop.in.es, keyword.operator.or.regexp, string.regexp.flags.es, keyword.control.flow.throw.es, support.function.node.require.es, storage.modifier.async.es, keyword.operator.assignment.js, keyword.control.conditional.js, keyword.operator.js, keyword.operator.comparison.js</string>
+			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, constant.language.nan.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.operator.arithmetic.js, keyword.operator.assignment.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -375,7 +214,7 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 			<key>name</key>
 			<string>JS Function Parameter</string>
 			<key>scope</key>
-			<string>variable.parameter.es, variable.parameter.rest.es</string>
+			<string>variable.parameter.es</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -386,7 +225,7 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 			<key>name</key>
 			<string>JS Variable</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.es, variable.other.readwrite.initCap.es, variable.other.readwrite.import.es, variable.other.readwrite.property.shorthand.es, variable.other.readwrite.js</string>
+			<string>variable.other.readwrite.es, variable.other.readwrite.initCap.es, variable.other.readwrite.import.es, variable.other.readwrite.js, variable.other.object.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -432,9 +271,9 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS Constants</string>
+			<string>JS Bool KWs</string>
 			<key>scope</key>
-			<string>constant.language.boolean.true.es, constant.language.boolean.false.es, constant.language.undefined.es, constant.language.null.es, constant.language.nan.es</string>
+			<string>constant.language.boolean.true.es, constant.language.boolean.false.es</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -447,20 +286,20 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 			<key>name</key>
 			<string>JS Function Name</string>
 			<key>scope</key>
-			<string>entity.name.function.es, meta.function.js, entity.name.function.js, meta.symbol-helper.function.es, entity.name.function.es, meta.invocation.es, meta.function-call.method.js, entity.name.method.js, entity.name.method.es, variable.function.js</string>
+			<string>entity.name.function.es, meta.function.js, entity.name.function.js, meta.symbol-helper.function.es, entity.name.function.es, meta.invocation.es, variable.function.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string> bold</string>
 				<key>foreground</key>
-				<string>#4DA855</string>
+				<string>#4EC257</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>JS Object Property</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.property.es, constant.other.object.key.js, string.unquoted.label.js, variable.other.readwrite.property.object-literal.es, meta.property.object.js</string>
+			<string>variable.other.readwrite.property.es, constant.other.object.key.js, string.unquoted.label.js, variable.other.readwrite.property.object-literal.es, meta.object-literal.key.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -521,24 +360,11 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 			<key>name</key>
 			<string>JS DOM Library</string>
 			<key>scope</key>
-			<string>support.variable.dom-library.es</string>
+			<string>support.variable.dom-library.es, punctuation.dollar.js, support.type.object.dom.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#F29122</string>
-				<key>fontStyle</key>
-				<string> bold</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS Language</string>
-			<key>scope</key>
-			<string>variable.language.arguments.es, variable.language.prototype.es</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#967EFB</string>
 				<key>fontStyle</key>
 				<string> bold</string>
 			</dict>
@@ -954,6 +780,17 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>PHP RegEx</string>
+			<key>scope</key>
+			<string>string.regexp.double-quoted.php, string.regexp.single-quoted.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFD900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP Global Constants</string>
 			<key>scope</key>
 			<string>support.constant.core.php, support.constant.ext.php</string>
@@ -980,9 +817,147 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Twig Keywords</string>
+			<string>CSS Class</string>
 			<key>scope</key>
-			<string>keyword.control.twig, keyword.operator.comparison.twig, keyword.operator.logical.twig, keyword.operator.assignment.twig</string>
+			<string>entity.other.attribute-name.class.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#16946C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS ID</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.id.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D9811C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Html Element</string>
+			<key>scope</key>
+			<string>entity.name.tag.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C47FDB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Attribute</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6079DE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Property</string>
+			<key>scope</key>
+			<string>support.type.property-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C7A27F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Constant Numeric</string>
+			<key>scope</key>
+			<string>constant.numeric.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#49BD40</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Unity</string>
+			<key>scope</key>
+			<string>keyword.other.unit.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B34F97</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Constants</string>
+			<key>scope</key>
+			<string>support.constant.property-value.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#19CCC0</string>
+				<key>fontStyle</key>
+				<string> italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS RGB</string>
+			<key>scope</key>
+			<string>constant.other.color.rgb-value.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ADD3FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Support Functions</string>
+			<key>scope</key>
+			<string>support.function.rgba.css, support.function.calc.css, support.function.url.css, support.function.linear-gradient.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#99D49F</string>
+				<key>fontStyle</key>
+				<string> bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Pseudos</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C9B21E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Operators</string>
+			<key>scope</key>
+			<string>keyword.operator.combinator.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+				<key>foreground</key>
+				<string>#D66262</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig KWs &amp; Operators</string>
+			<key>scope</key>
+			<string>keyword.control.twig, keyword.operator.comparison.twig</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -1002,155 +977,7 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
 				<string>#ADD3FF</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>Twig Property</string>
-			<key>scope</key>
-			<string>variable.other.property.twig</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C7A27F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Twig Number</string>
-			<key>scope</key>
-			<string>constant.numeric.twig</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D24AFF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Twig Support Function</string>
-			<key>scope</key>
-			<string>support.function.twig</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#99D49F</string>
-				<key>fontStyle</key>
-				<string> bold</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>GitGutter Deleted</string>
-			<key>scope</key>
-			<string>markup.deleted.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C72E31</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>GitGutter Inserted</string>
-			<key>scope</key>
-			<string>markup.inserted.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#A6E22E</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>GitGutter Changed</string>
-			<key>scope</key>
-			<string>markup.changed.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#967EFB</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>GitGutter Ignored</string>
-			<key>scope</key>
-			<string>markup.ignored.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#858585</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>GitGutter untracked</string>
-			<key>scope</key>
-			<string>markup.untracked.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D9B523</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Regex NCG</string>
-			<key>scope</key>
-			<string>punctuation.definition.group.non-capturing.begin.regexp, punctuation.definition.group.non-capturing.end.regexp</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#B1E8FA</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Regex</string>
-			<key>scope</key>
-			<string>string.regexp.es, punctuation.definition.string.regexp.begin.es, punctuation.definition.string.regexp.end.es</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFD900</string>
-				<key>fontStyle</key>
-				<string> italic</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS Variable ALLCAPS</string>
-			<key>scope</key>
-			<string>variable.other.readwrite.allCap.es, variable.other.object.js</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string> bold</string>
-				<key>foreground</key>
-				<string>#ADD3FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP Embedded tags</string>
-			<key>scope</key>
-			<string>punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C47FDB</string>
-			</dict>
-		</dict>
 	<dict>
-            <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
             <key>name</key>
             <string>SublimeLinter Error</string>
             <key>scope</key>
@@ -1159,6 +986,16 @@ entity.name.tag.script.html, entity.name.tag.doctype.html, meta.tag.sgml.doctype
             <dict>
                 <key>foreground</key>
                 <string>#D02000</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
             </dict>
         </dict><dict>
             <key>name</key>
