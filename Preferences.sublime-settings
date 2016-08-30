@@ -38,6 +38,7 @@
 	"material_theme_small_statusbar": true,
 	"material_theme_small_tab": true,
 	"material_theme_tabs_autowidth": true,
+	"mdpopups.use_sublime_highlighter": true,
 	"overlay_scroll_bars": "enabled",
 	"shift_tab_unindent": true,
 	"sublimelinter": true,
@@ -45,6 +46,5 @@
 	{
 		"javascript": "/usr/bin/nodejs"
 	},
-	"theme": "Material-Theme-Darker.sublime-theme",
-	"mdpopups.use_sublime_highlighter": true
+	"theme": "Material-Theme-Darker.sublime-theme"
 }

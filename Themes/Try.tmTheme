@@ -31,7 +31,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment.block, comment.line.es, comment.block.es, meta.comment.border.es, punctuation.definition.comment.end.es, comment.line.double-slash.php, comment.block.php, comment.line.double-slash.js, comment.block.json</string>
+			<string>comment.block, comment.line.es, comment.block.es, meta.comment.border.es, punctuation.definition.comment.end.es, comment.line.double-slash.php, comment.block.php, comment.line.double-slash.js, comment.block.json, comment.block.twig</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -53,7 +53,7 @@
 			<key>name</key>
 			<string>Def, Pont, Sep, etc.</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js, punctuation.terminator.expression.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.separator.php</string>
+			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js, punctuation.terminator.expression.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.separator.php, punctuation.section.tag.twig, punctuation.definition.brackets.js, meta.delimiter.comma.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -266,7 +266,7 @@
 			<key>name</key>
 			<string>JS Number</string>
 			<key>scope</key>
-			<string>constant.numeric.decimal.es</string>
+			<string>constant.numeric.decimal.es, constant.numeric.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -979,6 +979,43 @@
 			<dict>
 				<key>foreground</key>
 				<string>#ADD3FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig property</string>
+			<key>scope</key>
+			<string>variable.other.property.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C7A27F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig Number</string>
+			<key>scope</key>
+			<string>constant.numeric.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B549D6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig Support Function</string>
+			<key>scope</key>
+			<string>support.function.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+				<key>background</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#99D49F</string>
 			</dict>
 		</dict>
 		<dict>
