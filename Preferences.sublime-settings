@@ -45,5 +45,6 @@
 	{
 		"javascript": "/usr/bin/nodejs"
 	},
-	"theme": "Material-Theme-Darker.sublime-theme"
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"mdpopups.use_sublime_highlighter": true
 }
