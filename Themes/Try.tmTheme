@@ -53,7 +53,7 @@
 			<key>name</key>
 			<string>Def, Pont, Sep, etc.</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js</string>
+			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js, punctuation.terminator.expression.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.separator.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -125,7 +125,7 @@
 			<key>name</key>
 			<string>Html Element</string>
 			<key>scope</key>
-			<string>entity.name.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.inline.a.html, entity.name.tag.inline.any.html, entity.name.tag.inline.form.html, entity.name.tag.structure.any.html, entity.name.tag.other.html</string>
+			<string>entity.name.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.inline.a.html, entity.name.tag.inline.any.html, entity.name.tag.inline.form.html, entity.name.tag.structure.any.html, entity.name.tag.other.html, punctuation.section.embedded.begin.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -597,7 +597,7 @@
 			<key>name</key>
 			<string>PHP KWs &amp; Operators</string>
 			<key>scope</key>
-			<string>storage.modifier.php, keyword.control.import.include.php, storage.modifier.extends.php, keyword.operator.assignment.php, keyword.control.php, keyword.operator.logical.php, keyword.operator.class.php, keyword.operator.key.php, keyword.operator.comparison.php, keyword.other.new.php, keyword.control.exception.php, keyword.control.exception.catch.php, keyword.operator.class.php, keyword.operator.string.php, keyword.operator.increment-decrement.php, keyword.operator.arithmetic.php, meta.array.php support.function.construct.php, keyword.other.namespace.php</string>
+			<string>storage.modifier.php, keyword.control.import.include.php, storage.modifier.extends.php, keyword.operator.assignment.php, keyword.control.php, keyword.operator.logical.php, keyword.operator.class.php, keyword.operator.key.php, keyword.operator.comparison.php, keyword.other.new.php, keyword.control.exception.php, keyword.control.exception.catch.php, keyword.operator.class.php, keyword.operator.string.php, keyword.operator.increment-decrement.php, keyword.operator.arithmetic.php, meta.array.php support.function.construct.php, keyword.other.namespace.php, keyword.other.use.php, storage.modifier.reference.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -664,7 +664,7 @@
 			<key>name</key>
 			<string>PHP Variable</string>
 			<key>scope</key>
-			<string>variable.other.php</string>
+			<string>variable.other.php, constant.other.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -723,7 +723,7 @@
 			<key>name</key>
 			<string>PHP Support Functions</string>
 			<key>scope</key>
-			<string>support.function.construct.php, support.function.php, support.function.json.php, support.function.string.php, support.function.network.php, support.function.php_pcre.php, support.function.var.php, support.function.datetime.php, support.function.array.php, support.function.file.php, support.function.file.php, support.function.filter.php, support.function.url.php, support.function.image.php, support.function.session.php</string>
+			<string>support.function.construct.php, support.function.php, support.function.json.php, support.function.string.php, support.function.network.php, support.function.php_pcre.php, support.function.var.php, support.function.datetime.php, support.function.array.php, support.function.file.php, support.function.file.php, support.function.filter.php, support.function.url.php, support.function.image.php, support.function.session.php, support.function.mbstring.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -810,7 +810,7 @@
 			<key>name</key>
 			<string>PHP Namespace</string>
 			<key>scope</key>
-			<string>meta.namespace.php</string>
+			<string>meta.namespace.php, meta.use.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -979,6 +979,61 @@
 			<dict>
 				<key>foreground</key>
 				<string>#ADD3FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter deleted</string>
+			<key>scope</key>
+			<string>markup.deleted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#AC0C0E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter inserted</string>
+			<key>scope</key>
+			<string>markup.inserted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#4FB330</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter changed</string>
+			<key>scope</key>
+			<string>markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#967EFB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter ignored</string>
+			<key>scope</key>
+			<string>markup.ignored.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E6A66E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter untracked</string>
+			<key>scope</key>
+			<string>markup.untracked.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#565656</string>
 			</dict>
 		</dict>
 	</array>
