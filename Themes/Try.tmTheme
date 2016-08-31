@@ -40,7 +40,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Text</string>
+			<string>Basic Text</string>
 			<key>scope</key>
 			<string>text.html.basic, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, source.js, source.es, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php</string>
 			<key>settings</key>
