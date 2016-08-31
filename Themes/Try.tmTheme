@@ -12,7 +12,7 @@
 	<array>
 		<dict>
 			<key>settings</key>
-			<dict> 
+			<dict>
 				<key>background</key>
 				<string>#141414</string>
 				<key>caret</key>
