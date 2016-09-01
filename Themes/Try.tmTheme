@@ -40,7 +40,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Text</string>
+			<string>Basic Text</string>
 			<key>scope</key>
 			<string>text.html.basic, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, source.js, source.es, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php</string>
 			<key>settings</key>
@@ -125,7 +125,7 @@
 			<key>name</key>
 			<string>Html Element</string>
 			<key>scope</key>
-			<string>entity.name.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.inline.a.html, entity.name.tag.inline.any.html, entity.name.tag.inline.form.html, entity.name.tag.structure.any.html, entity.name.tag.other.html, punctuation.section.embedded.begin.php</string>
+			<string>entity.name.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.inline.a.html, entity.name.tag.inline.any.html, entity.name.tag.inline.form.html, entity.name.tag.structure.any.html, entity.name.tag.other.html, punctuation.section.embedded.begin.php, entity.name.tag.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -136,7 +136,7 @@
 			<key>name</key>
 			<string>Html &lt;script&gt; &amp; &lt;style&gt;</string>
 			<key>scope</key>
-			<string>entity.name.tag.html, entity.name.tag.style.html, entity.name.tag.script.html</string>
+			<string>entity.name.tag.style.html, entity.name.tag.script.html</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -175,7 +175,7 @@
 			<key>name</key>
 			<string>JS Operators</string>
 			<key>scope</key>
-			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, constant.language.nan.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.operator.arithmetic.js, keyword.operator.assignment.js</string>
+			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, constant.language.nan.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.operator.arithmetic.js, keyword.operator.assignment.js, keyword.control.conditional.js, keyword.operator.logical.js, keyword.operator.comparison.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -203,7 +203,7 @@
 			<key>name</key>
 			<string>JS this Keyword</string>
 			<key>scope</key>
-			<string>source.js source.es variable.language.this.es</string>
+			<string>source.js source.es variable.language.this.es, variable.language.this.js</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -218,7 +218,7 @@
 			<key>name</key>
 			<string>JS Function Parameter</string>
 			<key>scope</key>
-			<string>variable.parameter.es</string>
+			<string>variable.parameter.es, variable.parameter.function.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -277,7 +277,7 @@
 			<key>name</key>
 			<string>JS Bool KWs</string>
 			<key>scope</key>
-			<string>constant.language.boolean.true.es, constant.language.boolean.false.es</string>
+			<string>constant.language.boolean.true.es, constant.language.boolean.false.es, constant.language.boolean.true.js, constant.language.boolean.false.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -290,7 +290,7 @@
 			<key>name</key>
 			<string>JS Function Name</string>
 			<key>scope</key>
-			<string>entity.name.function.es, meta.function.js, entity.name.function.js, meta.symbol-helper.function.es, entity.name.function.es, meta.invocation.es, variable.function.js</string>
+			<string>entity.name.function.es, meta.function.js, entity.name.function.js, meta.symbol-helper.function.es, entity.name.function.es, meta.invocation.es, variable.function.js, support.function.console.js, support.function.js</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -303,7 +303,7 @@
 			<key>name</key>
 			<string>JS Object Property</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.property.es, constant.other.object.key.js, string.unquoted.label.js, variable.other.readwrite.property.object-literal.es, meta.object-literal.key.js</string>
+			<string>variable.other.readwrite.property.es, constant.other.object.key.js, string.unquoted.label.js, variable.other.readwrite.property.object-literal.es, meta.object-literal.key.js, meta.property.object.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -314,7 +314,7 @@
 			<key>name</key>
 			<string>JS Support</string>
 			<key>scope</key>
-			<string>support.variable.builtin.es, support.variable.dom.es, entity.name.statement.es, support.type.object.console.js</string>
+			<string>support.variable.builtin.es, support.variable.dom.es, entity.name.statement.es, support.type.object.console.js, support.function.dom.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -362,7 +362,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS DOM Library</string>
+			<string>JS DOM</string>
 			<key>scope</key>
 			<string>support.variable.dom-library.es, punctuation.dollar.js, support.type.object.dom.js</string>
 			<key>settings</key>
@@ -913,7 +913,7 @@
 			<key>name</key>
 			<string>CSS RGB</string>
 			<key>scope</key>
-			<string>constant.other.color.rgb-value.css</string>
+			<string>constant.other.color.rgb-value.css, support.constant.color.w3c-color-name.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -961,7 +961,7 @@
 			<key>name</key>
 			<string>Twig KWs &amp; Operators</string>
 			<key>scope</key>
-			<string>keyword.control.twig, keyword.operator.comparison.twig</string>
+			<string>keyword.control.twig, keyword.operator.comparison.twig, keyword.operator.logical.twig, keyword.operator.other.twig</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
