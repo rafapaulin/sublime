@@ -38,7 +38,7 @@
 			<key>name</key>
 			<string>Basic Text</string>
 			<key>scope</key>
-			<string>text.html.basic, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, source.js, source.es, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php</string>
+			<string>text.html.basic, source.js, source.es, text.html.twig</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -49,7 +49,7 @@
 			<key>name</key>
 			<string>Def, Pont, Sep, etc.</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js, punctuation.terminator.expression.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.separator.php, punctuation.section.tag.twig, punctuation.definition.brackets.js, meta.delimiter.comma.js, source.sass, text.xml</string>
+			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js, punctuation.terminator.expression.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.separator.php, punctuation.section.tag.twig, punctuation.definition.brackets.js, meta.delimiter.comma.js, source.sass, text.xml, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, text.plain</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -955,6 +955,50 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>CSS/Sass Variables</string>
+			<key>scope</key>
+			<string>variable.parameter.sass</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ADD3FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS/Sass Url</string>
+			<key>scope</key>
+			<string>variable.parameter.url string.quoted.single.sass, variable.parameter.url string.quoted.double.sass</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F0AE63</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS/Sass Url Property</string>
+			<key>scope</key>
+			<string>variable.parameter.url</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BD6807</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS/Sass Constant Strings</string>
+			<key>scope</key>
+			<string>constant.string.sass</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C42798</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Twig KWs &amp; Operators</string>
 			<key>scope</key>
 			<string>keyword.control.twig, keyword.operator.comparison.twig, keyword.operator.logical.twig, keyword.operator.other.twig</string>
@@ -1067,50 +1111,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#565656</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS/Sass Variables</string>
-			<key>scope</key>
-			<string>variable.parameter.sass</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ADD3FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS/Sass Url</string>
-			<key>scope</key>
-			<string>variable.parameter.url string.quoted.single.sass, variable.parameter.url string.quoted.double.sass</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F0AE63</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS/Sass Url Property</string>
-			<key>scope</key>
-			<string>variable.parameter.url</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#BD6807</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS/Sass Constant Strings</string>
-			<key>scope</key>
-			<string>constant.string.sass</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C42798</string>
 			</dict>
 		</dict>
 	<dict>
