@@ -27,7 +27,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment.block, comment.line.es, comment.block.es, meta.comment.border.es, punctuation.definition.comment.end.es, comment.line.double-slash.php, comment.block.php, comment.line.double-slash.js, comment.block.json, comment.block.twig</string>
+			<string>comment.block, comment.line.es, comment.block.es, meta.comment.border.es, punctuation.definition.comment.end.es, comment.line.double-slash.php, comment.block.php, comment.line.double-slash.js, comment.block.json, comment.block.twig, comment.block.sass, comment.line.double-slash.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -49,7 +49,7 @@
 			<key>name</key>
 			<string>Def, Pont, Sep, etc.</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js, punctuation.terminator.expression.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.separator.php, punctuation.section.tag.twig, punctuation.definition.brackets.js, meta.delimiter.comma.js</string>
+			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js, punctuation.terminator.expression.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.separator.php, punctuation.section.tag.twig, punctuation.definition.brackets.js, meta.delimiter.comma.js, source.sass, text.xml</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -60,7 +60,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.double.php, meta.string-contents.quoted.double.php, string.quoted.double.css, string.quoted.single.css, string.quoted.single.twig, string.quoted.double.twig</string>
+			<string>string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.double.php, meta.string-contents.quoted.double.php, string.quoted.double.css, string.quoted.single.css, string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.sass, string.quoted.double.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -310,7 +310,7 @@
 			<key>name</key>
 			<string>JS Support</string>
 			<key>scope</key>
-			<string>support.variable.builtin.es, support.variable.dom.es, entity.name.statement.es, support.type.object.console.js, support.function.dom.js</string>
+			<string>support.variable.builtin.es, entity.name.statement.es, support.type.object.console.js, support.function.dom.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -360,7 +360,7 @@
 			<key>name</key>
 			<string>JS DOM</string>
 			<key>scope</key>
-			<string>support.variable.dom-library.es, punctuation.dollar.js, support.type.object.dom.js</string>
+			<string>support.variable.dom-library.es, punctuation.dollar.js, support.type.object.dom.js, support.variable.dom.es</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -817,9 +817,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Class</string>
+			<string>CSS/Sass Class</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.class.css</string>
+			<string>entity.other.attribute-name.class.css, entity.other.attribute-name.class.sass,</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -828,9 +828,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS ID</string>
+			<string>CSS/Sass ID</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.id.css</string>
+			<string>entity.other.attribute-name.id.css, entity.other.attribute-name.id.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -839,9 +839,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Html Element</string>
+			<string>CSS/Sass Html Element</string>
 			<key>scope</key>
-			<string>entity.name.tag.css</string>
+			<string>entity.name.tag.css, entity.name.tag.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -850,9 +850,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Attribute</string>
+			<string>CSS/Sass Attribute</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.css</string>
+			<string>entity.other.attribute-name.css, entity.other.attribute-name.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -861,9 +861,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Property</string>
+			<string>CSS/Sass Property</string>
 			<key>scope</key>
-			<string>support.type.property-name.css</string>
+			<string>support.type.property-name.css, support.type.property-name.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -872,9 +872,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Constant Numeric</string>
+			<string>CSS/Sass Constant Numeric</string>
 			<key>scope</key>
-			<string>constant.numeric.css</string>
+			<string>constant.numeric.css, constant.numeric.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -883,9 +883,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Unity</string>
+			<string>CSS/Sass Unity</string>
 			<key>scope</key>
-			<string>keyword.other.unit.css</string>
+			<string>keyword.other.unit.css, constant.other.unit.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -894,9 +894,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Constants</string>
+			<string>CSS/Sass Constants</string>
 			<key>scope</key>
-			<string>support.constant.property-value.css</string>
+			<string>support.constant.property-value.css, support.constant.property-value.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -907,20 +907,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS RGB</string>
+			<string>CSS/Sass RGB</string>
 			<key>scope</key>
-			<string>constant.other.color.rgb-value.css, support.constant.color.w3c-color-name.css</string>
+			<string>constant.other.color.rgb-value.css, support.constant.color.w3c-color-name.css, constant.other.rgb-value.sass, support.constant.color.w3c-color-name.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ADD3FF</string>
+				<string>#FFABC1</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Support Functions</string>
+			<string>CSS/Sass Support Functions</string>
 			<key>scope</key>
-			<string>support.function.rgba.css, support.function.calc.css, support.function.url.css, support.function.linear-gradient.css</string>
+			<string>support.function.rgba.css, support.function.calc.css, support.function.url.css, support.function.linear-gradient.css, support.function.rgba.sass, support.function.calc.sass, support.function.url.sass, support.function.linear-gradient.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -931,9 +931,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Pseudos</string>
+			<string>CSS/Sass Pseudos</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css</string>
+			<string>entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css, source.sass entity.other.attribute-name.tag.pseudo-class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -942,9 +942,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS Operators</string>
+			<string>CSS/Sass Operators</string>
 			<key>scope</key>
-			<string>keyword.operator.combinator.css</string>
+			<string>keyword.operator.combinator.css, keyword.operator.combinator.sass, keyword.control.at-rule.media.css, source.sass keyword.control.at-rule.sass, keyword.control.untitled</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -1067,6 +1067,50 @@
 			<dict>
 				<key>foreground</key>
 				<string>#565656</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS/Sass Variables</string>
+			<key>scope</key>
+			<string>variable.parameter.sass</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ADD3FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS/Sass Url</string>
+			<key>scope</key>
+			<string>variable.parameter.url string.quoted.single.sass, variable.parameter.url string.quoted.double.sass</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F0AE63</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS/Sass Url Property</string>
+			<key>scope</key>
+			<string>variable.parameter.url</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BD6807</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS/Sass Constant Strings</string>
+			<key>scope</key>
+			<string>constant.string.sass</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C42798</string>
 			</dict>
 		</dict>
 	<dict>
