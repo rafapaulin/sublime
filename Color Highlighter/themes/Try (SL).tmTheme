@@ -1386,6 +1386,38 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
+<string>mcol_FFFFFF80</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#FFFFFF80</string>
+<key>foreground</key>
+<string>#000000FF</string>
+<key>caret</key>
+<string>#000000FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_text_color</string>
+<key>scope</key>
+<string>mcol_text_FFFFFF80</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#141415FF</string>
+<key>foreground</key>
+<string>#FFFFFF80</string>
+<key>caret</key>
+<string>#000000FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
 <string>mcol_5c5c5cFF</string>
 <key>settings</key>
 <dict>
@@ -1475,6 +1507,38 @@
 <string>#d99d66FF</string>
 <key>caret</key>
 <string>#995D26FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_19191940</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#19191940</string>
+<key>foreground</key>
+<string>#E6E6E6FF</string>
+<key>caret</key>
+<string>#E6E6E6FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_text_color</string>
+<key>scope</key>
+<string>mcol_text_19191940</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#141415FF</string>
+<key>foreground</key>
+<string>#19191940</string>
+<key>caret</key>
+<string>#E6E6E6FF</string>
 </dict>
 </dict>
 
@@ -3722,6 +3786,38 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
+<string>mcol_FFCC00CC</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#FFCC00CC</string>
+<key>foreground</key>
+<string>#4C3D00FF</string>
+<key>caret</key>
+<string>#4C3D00FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_text_color</string>
+<key>scope</key>
+<string>mcol_text_FFCC00CC</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#141415FF</string>
+<key>foreground</key>
+<string>#FFCC00CC</string>
+<key>caret</key>
+<string>#4C3D00FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
 <string>mcol_f5f5f5FF</string>
 <key>settings</key>
 <dict>
@@ -4355,6 +4451,38 @@
 <string>#99D49FFF</string>
 <key>caret</key>
 <string>#2A6631FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_FFFFFF40</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#FFFFFF40</string>
+<key>foreground</key>
+<string>#000000FF</string>
+<key>caret</key>
+<string>#000000FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_text_color</string>
+<key>scope</key>
+<string>mcol_text_FFFFFF40</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#141415FF</string>
+<key>foreground</key>
+<string>#FFFFFF40</string>
+<key>caret</key>
+<string>#000000FF</string>
 </dict>
 </dict>
 
@@ -5930,6 +6058,38 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
+<string>mcol_02020240</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#02020240</string>
+<key>foreground</key>
+<string>#FDFDFDFF</string>
+<key>caret</key>
+<string>#FDFDFDFF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_text_color</string>
+<key>scope</key>
+<string>mcol_text_02020240</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#141415FF</string>
+<key>foreground</key>
+<string>#02020240</string>
+<key>caret</key>
+<string>#FDFDFDFF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
 <string>mcol_BBBBBBFF</string>
 <key>settings</key>
 <dict>
@@ -6442,6 +6602,38 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
+<string>mcol_FFCC00FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#FFCC00FF</string>
+<key>foreground</key>
+<string>#4C3D00FF</string>
+<key>caret</key>
+<string>#4C3D00FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_text_color</string>
+<key>scope</key>
+<string>mcol_text_FFCC00FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#141415FF</string>
+<key>foreground</key>
+<string>#FFCC00FF</string>
+<key>caret</key>
+<string>#4C3D00FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
 <string>mcol_D6D065FF</string>
 <key>settings</key>
 <dict>
@@ -6634,6 +6826,38 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
+<string>mcol_FFcc00FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#FFcc00FF</string>
+<key>foreground</key>
+<string>#4C3D00FF</string>
+<key>caret</key>
+<string>#4C3D00FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_text_color</string>
+<key>scope</key>
+<string>mcol_text_FFcc00FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#141415FF</string>
+<key>foreground</key>
+<string>#FFcc00FF</string>
+<key>caret</key>
+<string>#4C3D00FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
 <string>mcol_333333FF</string>
 <key>settings</key>
 <dict>
@@ -6755,6 +6979,38 @@
 <string>#2099beFF</string>
 <key>caret</key>
 <string>#0B3441FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_FFCC00B2</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#FFCC00B2</string>
+<key>foreground</key>
+<string>#4C3D00FF</string>
+<key>caret</key>
+<string>#4C3D00FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_text_color</string>
+<key>scope</key>
+<string>mcol_text_FFCC00B2</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#141415FF</string>
+<key>foreground</key>
+<string>#FFCC00B2</string>
+<key>caret</key>
+<string>#4C3D00FF</string>
 </dict>
 </dict>
 
@@ -7494,7 +7750,7 @@
 			<key>name</key>
 			<string>Basic Text</string>
 			<key>scope</key>
-			<string>text.html.basic, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, source.js, source.es, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php</string>
+			<string>text.html.basic, source.js, source.es, text.html.twig</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -7505,7 +7761,7 @@
 			<key>name</key>
 			<string>Def, Pont, Sep, etc.</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js, punctuation.terminator.expression.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.separator.php, punctuation.section.tag.twig, punctuation.definition.brackets.js, meta.delimiter.comma.js, source.sass</string>
+			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js, punctuation.terminator.expression.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.separator.php, punctuation.section.tag.twig, punctuation.definition.brackets.js, meta.delimiter.comma.js, source.sass, text.xml, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, text.plain</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -8411,6 +8667,50 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>CSS/Sass Variables</string>
+			<key>scope</key>
+			<string>variable.parameter.sass</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ADD3FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS/Sass Url</string>
+			<key>scope</key>
+			<string>variable.parameter.url string.quoted.single.sass, variable.parameter.url string.quoted.double.sass</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F0AE63</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS/Sass Url Property</string>
+			<key>scope</key>
+			<string>variable.parameter.url</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BD6807</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS/Sass Constant Strings</string>
+			<key>scope</key>
+			<string>constant.string.sass</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C42798</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Twig KWs &amp; Operators</string>
 			<key>scope</key>
 			<string>keyword.control.twig, keyword.operator.comparison.twig, keyword.operator.logical.twig, keyword.operator.other.twig</string>
@@ -8523,50 +8823,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#565656</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS/Sass Variables</string>
-			<key>scope</key>
-			<string>variable.parameter.sass</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ADD3FF</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS/Sass Url</string>
-			<key>scope</key>
-			<string>variable.parameter.url string.quoted.single.sass, variable.parameter.url string.quoted.double.sass</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F0AE63</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS/Sass Url Property</string>
-			<key>scope</key>
-			<string>variable.parameter.url</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#BD6807</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS/Sass Constant Strings</string>
-			<key>scope</key>
-			<string>constant.string.sass</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C42798</string>
 			</dict>
 		</dict>
 	<dict>

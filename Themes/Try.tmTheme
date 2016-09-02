@@ -900,7 +900,7 @@
 			<key>name</key>
 			<string>CSS&#x2f;Sass Constants</string>
 			<key>scope</key>
-			<string>support.constant.property-value.css, support.constant.property-value.sass</string>
+			<string>support.constant.property-value.css, support.constant.property-value.sass, support.type.property-name.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
