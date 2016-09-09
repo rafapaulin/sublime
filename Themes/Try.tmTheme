@@ -275,9 +275,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS Bool KWs</string>
+			<string>JS Constants</string>
 			<key>scope</key>
-			<string>constant.language.boolean.true.es, constant.language.boolean.false.es, constant.language.boolean.true.js, constant.language.boolean.false.js</string>
+			<string>constant.language.boolean.true.es, constant.language.boolean.false.es, constant.language.boolean.true.js, constant.language.boolean.false.js, constant.language.null.es</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
