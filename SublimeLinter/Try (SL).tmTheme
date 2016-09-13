@@ -73,7 +73,7 @@
 			<key>name</key>
 			<string>String Escaped Chars</string>
 			<key>scope</key>
-			<string>constant.character.escape.es</string>
+			<string>constant.character.escape.es, constant.character.escape.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -121,7 +121,7 @@
 			<key>name</key>
 			<string>Html Element</string>
 			<key>scope</key>
-			<string>entity.name.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.inline.a.html, entity.name.tag.inline.any.html, entity.name.tag.inline.form.html, entity.name.tag.structure.any.html, entity.name.tag.other.html, punctuation.section.embedded.begin.php, entity.name.tag.html</string>
+			<string>entity.name.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.inline.a.html, entity.name.tag.inline.any.html, entity.name.tag.inline.form.html, entity.name.tag.structure.any.html, entity.name.tag.other.html, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, entity.name.tag.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -719,7 +719,7 @@
 			<key>name</key>
 			<string>PHP Support Functions</string>
 			<key>scope</key>
-			<string>support.function.construct.php, support.function.php, support.function.json.php, support.function.string.php, support.function.network.php, support.function.php_pcre.php, support.function.var.php, support.function.datetime.php, support.function.array.php, support.function.file.php, support.function.file.php, support.function.filter.php, support.function.url.php, support.function.image.php, support.function.session.php, support.function.mbstring.php</string>
+			<string>support.function.construct.php, support.function.php, support.function.json.php, support.function.string.php, support.function.network.php, support.function.php_pcre.php, support.function.var.php, support.function.datetime.php, support.function.array.php, support.function.file.php, support.function.file.php, support.function.filter.php, support.function.url.php, support.function.image.php, support.function.session.php, support.function.mbstring.php, support.function.info.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1115,16 +1115,6 @@
 		</dict>
 	<dict>
             <key>name</key>
-            <string>SublimeLinter Warning</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#DDB700</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
             <string>SublimeLinter Error</string>
             <key>scope</key>
             <string>sublimelinter.mark.error</string>
@@ -1142,6 +1132,16 @@
             <dict>
                 <key>foreground</key>
                 <string>#FFFFFF</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Warning</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDB700</string>
             </dict>
         </dict></array>
 	<key>uuid</key>
