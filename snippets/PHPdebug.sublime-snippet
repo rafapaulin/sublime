@@ -1,0 +1,16 @@
+<snippet>
+	<content>
+<![CDATA[
+
+//xdebug_start_trace('/tmp/trace-from-config');
+ini_set('ignore_repeated_errors', 'On');
+ini_set('html_errors', 'On');
+ini_set('display_errors', 'On');
+error_reporting(E_ALL);
+
+]]>
+	</content>
+	<tabTrigger>debug</tabTrigger>
+	<description>PHP Debug</description>
+	<scope>source.php</scope>
+</snippet>
