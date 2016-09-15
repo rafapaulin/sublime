@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+// == ${1:name} ============================================================ //
+	
+// ============================================================ ${1:name} == //
+]]></content>
+	<tabTrigger>sep</tabTrigger>
+	<description>JS code separator</description>
+	<scope>source.js, source.es</scope>
+</snippet>

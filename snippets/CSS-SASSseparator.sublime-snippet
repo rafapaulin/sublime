@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+/* == ${1:name} ============================================================ */
+	
+/* ============================================================ ${1:name} == */
+]]></content>
+	<tabTrigger>sep</tabTrigger>
+	<description>SASS/CSS code separator</description>
+	<scope>source.sass, source.css</scope>
+</snippet>
