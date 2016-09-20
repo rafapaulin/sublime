@@ -82,6 +82,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Regex</string>
+			<key>scope</key>
+			<string>string.regexp.es, punctuation.definition.string.regexp.begin.es, punctuation.definition.string.regexp.end.es, string.regexp.double-quoted.php, string.regexp.single-quoted.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> underline</string>
+				<key>foreground</key>
+				<string>#FFD900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Html ID Attribute &amp; Entity</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.id.html, constant.character.entity.html</string>
@@ -780,17 +793,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP RegEx</string>
-			<key>scope</key>
-			<string>string.regexp.double-quoted.php, string.regexp.single-quoted.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFD900</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>PHP Global Constants</string>
 			<key>scope</key>
 			<string>support.constant.core.php, support.constant.ext.php</string>
@@ -1125,16 +1127,6 @@
             </dict>
         </dict><dict>
             <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
             <string>SublimeLinter Warning</string>
             <key>scope</key>
             <string>sublimelinter.mark.warning</string>
@@ -1142,6 +1134,16 @@
             <dict>
                 <key>foreground</key>
                 <string>#DDB700</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
             </dict>
         </dict></array>
 	<key>uuid</key>

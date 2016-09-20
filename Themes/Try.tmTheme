@@ -86,6 +86,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Regex</string>
+			<key>scope</key>
+			<string>string.regexp.es, punctuation.definition.string.regexp.begin.es, punctuation.definition.string.regexp.end.es, string.regexp.double-quoted.php, string.regexp.single-quoted.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> underline</string>
+				<key>foreground</key>
+				<string>#FFD900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Html ID Attribute &amp; Entity</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.id.html, constant.character.entity.html</string>
@@ -780,17 +793,6 @@
 				<string> bold</string>
 				<key>foreground</key>
 				<string>#B3348F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP RegEx</string>
-			<key>scope</key>
-			<string>string.regexp.double-quoted.php, string.regexp.single-quoted.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFD900</string>
 			</dict>
 		</dict>
 		<dict>
