@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+    /**
+     * ${1:Method Description}.
+     * @param \{${2:dataType}\} ${3:param name} - ${4:param description}.
+     */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>doc</tabTrigger>
+	<scope>source.js, source.es</scope>
+</snippet>

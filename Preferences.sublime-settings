@@ -12,9 +12,7 @@
 	"ignored_packages":
 	[
 		"ActionScript",
-		"BracketHighlighter",
 		"CSS",
-		"GitGutter-Edge",
 		"Mybb Template Editor",
 		"Vintage"
 	],
@@ -26,8 +24,8 @@
 	"indent_subsequent_lines": false,
 	"indent_to_bracket": true,
 	"javascript_linter": "jslint",
-	"line_padding_bottom": 3,
-	"line_padding_top": 3,
+	"line_padding_bottom": 5,
+	"line_padding_top": 5,
 	"margin": 0,
 	"material_theme_accent_yellow": true,
 	"material_theme_bold_tab": true,
