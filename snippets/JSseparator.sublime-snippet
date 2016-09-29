@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>sep</tabTrigger>
 	<description>JS code separator</description>
-	<scope>source.js, source.es</scope>
+	<scope>source.js, source.es, source.json</scope>
 </snippet>
