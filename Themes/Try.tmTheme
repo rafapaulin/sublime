@@ -53,7 +53,7 @@
 			<key>name</key>
 			<string>Def, Pont, Sep, etc.</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js, punctuation.terminator.expression.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.separator.php, punctuation.section.tag.twig, punctuation.definition.brackets.js, meta.delimiter.comma.js, source.sass, text.xml, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, text.plain, punctuation.section.property-list.begin.css, punctuation.section.property-list.end.css, punctuation.separator.key-value.css, punctuation.terminator.rule.css, punctuation.section.at-media.begin.css, punctuation.section.at-media.begin.css, punctuation.section.media-feature.begin.css, punctuation.section.media-feature.begin.css, source.php, source.css, source.js, source.es</string>
+			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js, punctuation.terminator.expression.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.separator.php, punctuation.section.tag.twig, punctuation.definition.brackets.js, meta.delimiter.comma.js, source.sass, text.xml, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, text.plain, punctuation.section.property-list.begin.css, punctuation.section.property-list.end.css, punctuation.separator.key-value.css, punctuation.terminator.rule.css, punctuation.section.at-media.begin.css, punctuation.section.at-media.begin.css, punctuation.section.media-feature.begin.css, punctuation.section.media-feature.begin.css, source.php, source.css, source.js, source.es, punctuation.section.brackets.begin.php, punctuation.section.brackets.end.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -597,7 +597,7 @@
 			<key>name</key>
 			<string>PHP KWs &amp; Operators</string>
 			<key>scope</key>
-			<string>storage.modifier.php, keyword.control.import.include.php, storage.modifier.extends.php, keyword.operator.assignment.php, keyword.control.php, keyword.operator.logical.php, keyword.operator.class.php, keyword.operator.key.php, keyword.operator.comparison.php, keyword.other.new.php, keyword.control.exception.php, keyword.control.exception.catch.php, keyword.operator.class.php, keyword.operator.string.php, keyword.operator.increment-decrement.php, keyword.operator.arithmetic.php, meta.array.php support.function.construct.php, keyword.other.namespace.php, keyword.other.use.php, storage.modifier.reference.php, support.function.basic_functions.php, keyword.other.function.use.php, storage.modifier.implements.php</string>
+			<string>storage.modifier.php, keyword.control.import.include.php, storage.modifier.extends.php, keyword.operator.assignment.php, keyword.control.php, keyword.operator.logical.php, keyword.operator.class.php, keyword.operator.key.php, keyword.operator.comparison.php, keyword.other.new.php, keyword.control.exception.php, keyword.control.exception.catch.php, keyword.operator.class.php, keyword.operator.string.php, keyword.operator.increment-decrement.php, keyword.operator.arithmetic.php, meta.array.php support.function.construct.php, keyword.other.namespace.php, keyword.other.use.php, storage.modifier.reference.php, support.function.basic_functions.php, keyword.other.function.use.php, storage.modifier.implements.php, keyword.operator.type.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -664,7 +664,7 @@
 			<key>name</key>
 			<string>PHP Variable</string>
 			<key>scope</key>
-			<string>variable.other.php, constant.other.php</string>
+			<string>variable.other.php, variable.other.class.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -784,9 +784,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP Global Constants</string>
+			<string>PHP Constants</string>
 			<key>scope</key>
-			<string>support.constant.core.php, support.constant.ext.php</string>
+			<string>support.constant.core.php, support.constant.ext.php, constant.other.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -799,7 +799,7 @@
 			<key>name</key>
 			<string>PHP Namespace</string>
 			<key>scope</key>
-			<string>meta.namespace.php, meta.use.php, support.other.namespace.php</string>
+			<string>meta.namespace.php, meta.use.php, support.other.namespace.php, punctuation.separator.namespace.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -1104,6 +1104,30 @@
 			<dict>
 				<key>foreground</key>
 				<string>#565656</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Expression</string>
+			<key>scope</key>
+			<string>punctuation.definition.expression.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFD900C9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Item Arguments</string>
+			<key>scope</key>
+			<string>meta.item-access.arguments.php string.quoted.single.php meta.string-contents.quoted.single.php, meta.item-access.arguments.php string.quoted.double.php meta.string-contents.quoted.double.php, meta.item-access.arguments.php string.quoted.single.php punctuation.definition.string.begin.php, meta.item-access.arguments.php string.quoted.single.php punctuation.definition.string.end.php, meta.item-access.arguments.php string.quoted.double.php punctuation.definition.string.begin.php, meta.item-access.arguments.php string.quoted.double.php punctuation.definition.string.end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C47FDB</string>
+				<key>fontStyle</key>
+				<string> italic</string>
 			</dict>
 		</dict>
 	</array>
