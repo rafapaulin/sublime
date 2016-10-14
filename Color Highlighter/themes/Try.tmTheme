@@ -14,15 +14,15 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
-<string>mcol_DDCC0000</string>
+<string>mcol_FFFFFFFF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
-<string>#DDCC0000</string>
+<string>#FFFFFFFF</string>
 <key>foreground</key>
-<string>#4C4600FF</string>
+<string>#000000FF</string>
 <key>caret</key>
-<string>#4C4600FF</string>
+<string>#000000FF</string>
 </dict>
 </dict>
 
@@ -30,15 +30,15 @@
 <key>name</key>
 <string>mon_text_color</string>
 <key>scope</key>
-<string>mcol_text_DDCC0000</string>
+<string>mcol_text_FFFFFFFF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
 <string>#141415FF</string>
 <key>foreground</key>
-<string>#DDCC0000</string>
+<string>#FFFFFFFF</string>
 <key>caret</key>
-<string>#4C4600FF</string>
+<string>#000000FF</string>
 </dict>
 </dict>
 
@@ -46,15 +46,15 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
-<string>mcol_66778811</string>
+<string>mcol_e5e5e5FF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
-<string>#66778811</string>
+<string>#e5e5e5FF</string>
 <key>foreground</key>
-<string>#20262BFF</string>
+<string>#191919FF</string>
 <key>caret</key>
-<string>#20262BFF</string>
+<string>#191919FF</string>
 </dict>
 </dict>
 
@@ -62,15 +62,15 @@
 <key>name</key>
 <string>mon_text_color</string>
 <key>scope</key>
-<string>mcol_text_66778811</string>
+<string>mcol_text_e5e5e5FF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
 <string>#141415FF</string>
 <key>foreground</key>
-<string>#66778811</string>
+<string>#e5e5e5FF</string>
 <key>caret</key>
-<string>#20262BFF</string>
+<string>#191919FF</string>
 </dict>
 </dict>
 
@@ -78,15 +78,15 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
-<string>mcol_115577FF</string>
+<string>mcol_23c6c8FF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
-<string>#115577FF</string>
+<string>#23c6c8FF</string>
 <key>foreground</key>
-<string>#88CCEEFF</string>
+<string>#0B4041FF</string>
 <key>caret</key>
-<string>#88CCEEFF</string>
+<string>#0B4041FF</string>
 </dict>
 </dict>
 
@@ -94,15 +94,15 @@
 <key>name</key>
 <string>mon_text_color</string>
 <key>scope</key>
-<string>mcol_text_115577FF</string>
+<string>mcol_text_23c6c8FF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
 <string>#141415FF</string>
 <key>foreground</key>
-<string>#115577FF</string>
+<string>#23c6c8FF</string>
 <key>caret</key>
-<string>#88CCEEFF</string>
+<string>#0B4041FF</string>
 </dict>
 </dict>
 
@@ -110,15 +110,15 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
-<string>mcol_22555511</string>
+<string>mcol_0855A1FF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
-<string>#22555511</string>
+<string>#0855A1FF</string>
 <key>foreground</key>
-<string>#A9DDDDFF</string>
+<string>#5EABF7FF</string>
 <key>caret</key>
-<string>#A9DDDDFF</string>
+<string>#5EABF7FF</string>
 </dict>
 </dict>
 
@@ -126,15 +126,15 @@
 <key>name</key>
 <string>mon_text_color</string>
 <key>scope</key>
-<string>mcol_text_22555511</string>
+<string>mcol_text_0855A1FF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
 <string>#141415FF</string>
 <key>foreground</key>
-<string>#22555511</string>
+<string>#0855A1FF</string>
 <key>caret</key>
-<string>#A9DDDDFF</string>
+<string>#5EABF7FF</string>
 </dict>
 </dict>
 
@@ -142,15 +142,15 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
-<string>mcol_99995511</string>
+<string>mcol_21b9bbFF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
-<string>#99995511</string>
+<string>#21b9bbFF</string>
 <key>foreground</key>
-<string>#31311BFF</string>
+<string>#0B4041FF</string>
 <key>caret</key>
-<string>#31311BFF</string>
+<string>#0B4041FF</string>
 </dict>
 </dict>
 
@@ -158,15 +158,15 @@
 <key>name</key>
 <string>mon_text_color</string>
 <key>scope</key>
-<string>mcol_text_99995511</string>
+<string>mcol_text_21b9bbFF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
 <string>#141415FF</string>
 <key>foreground</key>
-<string>#99995511</string>
+<string>#21b9bbFF</string>
 <key>caret</key>
-<string>#31311BFF</string>
+<string>#0B4041FF</string>
 </dict>
 </dict>
 
@@ -174,15 +174,15 @@
 <key>name</key>
 <string>mon_color</string>
 <key>scope</key>
-<string>mcol_77110022</string>
+<string>mcol_eeeeeeFF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
-<string>#77110022</string>
+<string>#eeeeeeFF</string>
 <key>foreground</key>
-<string>#FF9887FF</string>
+<string>#101010FF</string>
 <key>caret</key>
-<string>#FF9887FF</string>
+<string>#101010FF</string>
 </dict>
 </dict>
 
@@ -190,559 +190,15 @@
 <key>name</key>
 <string>mon_text_color</string>
 <key>scope</key>
-<string>mcol_text_77110022</string>
+<string>mcol_text_eeeeeeFF</string>
 <key>settings</key>
 <dict>
 <key>background</key>
 <string>#141415FF</string>
 <key>foreground</key>
-<string>#77110022</string>
+<string>#eeeeeeFF</string>
 <key>caret</key>
-<string>#FF9887FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_66991111</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#66991111</string>
-<key>foreground</key>
-<string>#BBEE66FF</string>
-<key>caret</key>
-<string>#BBEE66FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_66991111</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#66991111</string>
-<key>caret</key>
-<string>#BBEE66FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_66117700</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#66117700</string>
-<key>foreground</key>
-<string>#DC88EEFF</string>
-<key>caret</key>
-<string>#DC88EEFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_66117700</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#66117700</string>
-<key>caret</key>
-<string>#DC88EEFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_229999FF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#229999FF</string>
-<key>foreground</key>
-<string>#65DCDDFF</string>
-<key>caret</key>
-<string>#65DCDDFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_229999FF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#229999FF</string>
-<key>caret</key>
-<string>#65DCDDFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_99223377</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#99223377</string>
-<key>foreground</key>
-<string>#DD6577FF</string>
-<key>caret</key>
-<string>#DD6577FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_99223377</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#99223377</string>
-<key>caret</key>
-<string>#DD6577FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_88116655</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#88116655</string>
-<key>foreground</key>
-<string>#EE76CBFF</string>
-<key>caret</key>
-<string>#EE76CBFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_88116655</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#88116655</string>
-<key>caret</key>
-<string>#EE76CBFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_88333355</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#88333355</string>
-<key>foreground</key>
-<string>#CC7676FF</string>
-<key>caret</key>
-<string>#CC7676FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_88333355</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#88333355</string>
-<key>caret</key>
-<string>#CC7676FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_77111166</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#77111166</string>
-<key>foreground</key>
-<string>#EE8888FF</string>
-<key>caret</key>
-<string>#EE8888FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_77111166</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#77111166</string>
-<key>caret</key>
-<string>#EE8888FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_77334455</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#77334455</string>
-<key>foreground</key>
-<string>#CC8798FF</string>
-<key>caret</key>
-<string>#CC8798FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_77334455</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#77334455</string>
-<key>caret</key>
-<string>#CC8798FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_33FFFFFF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#33FFFFFF</string>
-<key>foreground</key>
-<string>#00CBCCFF</string>
-<key>caret</key>
-<string>#00CBCCFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_33FFFFFF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#33FFFFFF</string>
-<key>caret</key>
-<string>#00CBCCFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_88990088</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#88990088</string>
-<key>foreground</key>
-<string>#EDFF65FF</string>
-<key>caret</key>
-<string>#EDFF65FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_88990088</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#88990088</string>
-<key>caret</key>
-<string>#EDFF65FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_DD880000</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#DD880000</string>
-<key>foreground</key>
-<string>#4C2F00FF</string>
-<key>caret</key>
-<string>#4C2F00FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_DD880000</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#DD880000</string>
-<key>caret</key>
-<string>#4C2F00FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_99552211</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#99552211</string>
-<key>foreground</key>
-<string>#DD9965FF</string>
-<key>caret</key>
-<string>#DD9965FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_99552211</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#99552211</string>
-<key>caret</key>
-<string>#DD9965FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_550044FF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#550044FF</string>
-<key>foreground</key>
-<string>#FFAAEDFF</string>
-<key>caret</key>
-<string>#FFAAEDFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_550044FF</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#550044FF</string>
-<key>caret</key>
-<string>#FFAAEDFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_44883333</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#44883333</string>
-<key>foreground</key>
-<string>#87CC76FF</string>
-<key>caret</key>
-<string>#87CC76FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_44883333</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#44883333</string>
-<key>caret</key>
-<string>#87CC76FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_88007700</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#88007700</string>
-<key>foreground</key>
-<string>#FF77EEFF</string>
-<key>caret</key>
-<string>#FF77EEFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_88007700</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#88007700</string>
-<key>caret</key>
-<string>#FF77EEFF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_99772244</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#99772244</string>
-<key>foreground</key>
-<string>#DDBB65FF</string>
-<key>caret</key>
-<string>#DDBB65FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_99772244</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#99772244</string>
-<key>caret</key>
-<string>#DDBB65FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_color</string>
-<key>scope</key>
-<string>mcol_99557722</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#99557722</string>
-<key>foreground</key>
-<string>#311B26FF</string>
-<key>caret</key>
-<string>#311B26FF</string>
-</dict>
-</dict>
-
-<dict>
-<key>name</key>
-<string>mon_text_color</string>
-<key>scope</key>
-<string>mcol_text_99557722</string>
-<key>settings</key>
-<dict>
-<key>background</key>
-<string>#141415FF</string>
-<key>foreground</key>
-<string>#99557722</string>
-<key>caret</key>
-<string>#311B26FF</string>
+<string>#101010FF</string>
 </dict>
 </dict>
 
@@ -789,7 +245,7 @@
 			<key>name</key>
 			<string>Def, Pont, Sep, etc.</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js, punctuation.terminator.expression.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.separator.php, punctuation.section.tag.twig, punctuation.definition.brackets.js, meta.delimiter.comma.js, source.sass, text.xml, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, text.plain, punctuation.section.property-list.begin.css, punctuation.section.property-list.end.css, punctuation.separator.key-value.css, punctuation.terminator.rule.css, punctuation.section.at-media.begin.css, punctuation.section.at-media.begin.css, punctuation.section.media-feature.begin.css, punctuation.section.media-feature.begin.css, source.php, source.css, source.js, source.es</string>
+			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js, punctuation.terminator.expression.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.separator.php, punctuation.section.tag.twig, punctuation.definition.brackets.js, meta.delimiter.comma.js, source.sass, text.xml, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, text.plain, punctuation.section.property-list.begin.css, punctuation.section.property-list.end.css, punctuation.separator.key-value.css, punctuation.terminator.rule.css, punctuation.section.at-media.begin.css, punctuation.section.at-media.begin.css, punctuation.section.media-feature.begin.css, punctuation.section.media-feature.begin.css, source.php, source.css, source.js, source.es, punctuation.section.brackets.begin.php, punctuation.section.brackets.end.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -800,7 +256,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.double.php, meta.string-contents.quoted.double.php, string.quoted.double.css, string.quoted.single.css, string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.sass, string.quoted.double.sass</string>
+			<string>string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.double.php, meta.string-contents.quoted.double.php, string.quoted.double.css, string.quoted.single.css, string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.sass, string.quoted.double.sass, string.template.js, punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -911,7 +367,7 @@
 			<key>name</key>
 			<string>JS Operators</string>
 			<key>scope</key>
-			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, constant.language.nan.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.operator.arithmetic.js, keyword.operator.assignment.js, keyword.control.conditional.js, keyword.operator.logical.js, keyword.operator.comparison.js, keyword.control.loop.in.es, keyword.control.flow.js, keyword.control.flow.throw.es</string>
+			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, constant.language.nan.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.operator.arithmetic.js, keyword.operator.assignment.js, keyword.control.conditional.js, keyword.operator.logical.js, keyword.operator.comparison.js, keyword.control.loop.in.es, keyword.control.flow.js, keyword.control.flow.throw.es, keyword.control.flow.continue.es, keyword.control.loop.of.es</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -1011,7 +467,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS Constants</string>
+			<string>JS Reserved words</string>
 			<key>scope</key>
 			<string>constant.language.boolean.true.es, constant.language.boolean.false.es, constant.language.boolean.true.js, constant.language.boolean.false.js, constant.language.null.es, constant.language.undefined.es</string>
 			<key>settings</key>
@@ -1063,7 +519,7 @@
 			<key>name</key>
 			<string>JS Template Str ${}</string>
 			<key>scope</key>
-			<string>entity.quasi.element.js, punctuation.quasi.element.begin.js, punctuation.definition.string.interpolated.element.begin.es</string>
+			<string>entity.quasi.element.js, punctuation.quasi.element.begin.js, punctuation.definition.string.interpolated.element.begin.es, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1085,9 +541,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS Module Alias (import)</string>
+			<string>JS Module Alias (import&#x2f;export)</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.import.es</string>
+			<string>variable.other.readwrite.import.es, variable.other.readwrite.export.es</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -1333,7 +789,7 @@
 			<key>name</key>
 			<string>PHP KWs &amp; Operators</string>
 			<key>scope</key>
-			<string>storage.modifier.php, keyword.control.import.include.php, storage.modifier.extends.php, keyword.operator.assignment.php, keyword.control.php, keyword.operator.logical.php, keyword.operator.class.php, keyword.operator.key.php, keyword.operator.comparison.php, keyword.other.new.php, keyword.control.exception.php, keyword.control.exception.catch.php, keyword.operator.class.php, keyword.operator.string.php, keyword.operator.increment-decrement.php, keyword.operator.arithmetic.php, meta.array.php support.function.construct.php, keyword.other.namespace.php, keyword.other.use.php, storage.modifier.reference.php, support.function.basic_functions.php</string>
+			<string>storage.modifier.php, keyword.control.import.include.php, storage.modifier.extends.php, keyword.operator.assignment.php, keyword.control.php, keyword.operator.logical.php, keyword.operator.class.php, keyword.operator.key.php, keyword.operator.comparison.php, keyword.other.new.php, keyword.control.exception.php, keyword.control.exception.catch.php, keyword.operator.class.php, keyword.operator.string.php, keyword.operator.increment-decrement.php, keyword.operator.arithmetic.php, meta.array.php support.function.construct.php, keyword.other.namespace.php, keyword.other.use.php, storage.modifier.reference.php, support.function.basic_functions.php, keyword.other.function.use.php, storage.modifier.implements.php, keyword.operator.type.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1400,7 +856,7 @@
 			<key>name</key>
 			<string>PHP Variable</string>
 			<key>scope</key>
-			<string>variable.other.php, constant.other.php</string>
+			<string>variable.other.php, variable.other.class.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1459,7 +915,7 @@
 			<key>name</key>
 			<string>PHP Support Functions</string>
 			<key>scope</key>
-			<string>support.function.construct.php, support.function.php, support.function.json.php, support.function.string.php, support.function.network.php, support.function.php_pcre.php, support.function.var.php, support.function.datetime.php, support.function.array.php, support.function.file.php, support.function.file.php, support.function.filter.php, support.function.url.php, support.function.image.php, support.function.session.php, support.function.mbstring.php, support.function.info.php, support.function.output.php, support.function.xml.php, support.function.errorfunc.php, support.function.basic_functions.php_MPDF_TEMP_PATH</string>
+			<string>support.function.construct.php, support.function.php, support.function.json.php, support.function.string.php, support.function.network.php, support.function.php_pcre.php, support.function.var.php, support.function.datetime.php, support.function.array.php, support.function.file.php, support.function.file.php, support.function.filter.php, support.function.url.php, support.function.image.php, support.function.session.php, support.function.mbstring.php, support.function.info.php, support.function.output.php, support.function.xml.php, support.function.errorfunc.php, support.function.basic_functions.php_MPDF_TEMP_PATH, support.function.php_spl.php, support.function.funchand.php, support.function.curl.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1520,9 +976,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP Global Constants</string>
+			<string>PHP Constants</string>
 			<key>scope</key>
-			<string>support.constant.core.php, support.constant.ext.php</string>
+			<string>support.constant.core.php, support.constant.ext.php, constant.other.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -1535,7 +991,7 @@
 			<key>name</key>
 			<string>PHP Namespace</string>
 			<key>scope</key>
-			<string>meta.namespace.php, meta.use.php</string>
+			<string>meta.namespace.php, meta.use.php, support.other.namespace.php, punctuation.separator.namespace.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -1840,6 +1296,43 @@
 			<dict>
 				<key>foreground</key>
 				<string>#565656</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Expression</string>
+			<key>scope</key>
+			<string>punctuation.definition.expression.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFD900C9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Item Arguments</string>
+			<key>scope</key>
+			<string>meta.item-access.arguments.php string.quoted.single.php meta.string-contents.quoted.single.php, meta.item-access.arguments.php string.quoted.double.php meta.string-contents.quoted.double.php, meta.item-access.arguments.php string.quoted.single.php punctuation.definition.string.begin.php, meta.item-access.arguments.php string.quoted.single.php punctuation.definition.string.end.php, meta.item-access.arguments.php string.quoted.double.php punctuation.definition.string.begin.php, meta.item-access.arguments.php string.quoted.double.php punctuation.definition.string.end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C47FDB</string>
+				<key>fontStyle</key>
+				<string> italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS Constants</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.allCap.es</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+				<key>foreground</key>
+				<string>#8F5EB8</string>
 			</dict>
 		</dict>
 	</array>

@@ -60,7 +60,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.double.php, meta.string-contents.quoted.double.php, string.quoted.double.css, string.quoted.single.css, string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.sass, string.quoted.double.sass</string>
+			<string>string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.double.php, meta.string-contents.quoted.double.php, string.quoted.double.css, string.quoted.single.css, string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.sass, string.quoted.double.sass, string.template.js, punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -171,7 +171,7 @@
 			<key>name</key>
 			<string>JS Operators</string>
 			<key>scope</key>
-			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, constant.language.nan.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.operator.arithmetic.js, keyword.operator.assignment.js, keyword.control.conditional.js, keyword.operator.logical.js, keyword.operator.comparison.js, keyword.control.loop.in.es, keyword.control.flow.js, keyword.control.flow.throw.es, keyword.control.flow.continue.es</string>
+			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, constant.language.nan.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.operator.arithmetic.js, keyword.operator.assignment.js, keyword.control.conditional.js, keyword.operator.logical.js, keyword.operator.comparison.js, keyword.control.loop.in.es, keyword.control.flow.js, keyword.control.flow.throw.es, keyword.control.flow.continue.es, keyword.control.loop.of.es</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -271,7 +271,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS Constants</string>
+			<string>JS Reserved words</string>
 			<key>scope</key>
 			<string>constant.language.boolean.true.es, constant.language.boolean.false.es, constant.language.boolean.true.js, constant.language.boolean.false.js, constant.language.null.es, constant.language.undefined.es</string>
 			<key>settings</key>
@@ -323,7 +323,7 @@
 			<key>name</key>
 			<string>JS Template Str ${}</string>
 			<key>scope</key>
-			<string>entity.quasi.element.js, punctuation.quasi.element.begin.js, punctuation.definition.string.interpolated.element.begin.es</string>
+			<string>entity.quasi.element.js, punctuation.quasi.element.begin.js, punctuation.definition.string.interpolated.element.begin.es, punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -345,9 +345,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS Module Alias (import)</string>
+			<string>JS Module Alias (import/export)</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.import.es</string>
+			<string>variable.other.readwrite.import.es, variable.other.readwrite.export.es</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -593,7 +593,7 @@
 			<key>name</key>
 			<string>PHP KWs &amp; Operators</string>
 			<key>scope</key>
-			<string>storage.modifier.php, keyword.control.import.include.php, storage.modifier.extends.php, keyword.operator.assignment.php, keyword.control.php, keyword.operator.logical.php, keyword.operator.class.php, keyword.operator.key.php, keyword.operator.comparison.php, keyword.other.new.php, keyword.control.exception.php, keyword.control.exception.catch.php, keyword.operator.class.php, keyword.operator.string.php, keyword.operator.increment-decrement.php, keyword.operator.arithmetic.php, meta.array.php support.function.construct.php, keyword.other.namespace.php, keyword.other.use.php, storage.modifier.reference.php, support.function.basic_functions.php, keyword.other.function.use.php, storage.modifier.implements.php, keyword.operator.type.php</string>
+			<string>storage.modifier.php, keyword.control.import.include.php, storage.modifier.extends.php, keyword.operator.assignment.php, keyword.control.php, keyword.operator.logical.php, keyword.operator.class.php, keyword.operator.key.php, keyword.operator.comparison.php, keyword.other.new.php, keyword.control.exception.php, keyword.control.exception.catch.php, keyword.operator.class.php, keyword.operator.string.php, keyword.operator.increment-decrement.php, keyword.operator.arithmetic.php, meta.array.php support.function.construct.php, keyword.other.namespace.php, keyword.other.use.php, storage.modifier.reference.php, support.function.basic_functions.php, keyword.other.function.use.php, storage.modifier.implements.php, keyword.operator.type.php, storage.modifier.abstract.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1124,6 +1124,19 @@
 				<string>#C47FDB</string>
 				<key>fontStyle</key>
 				<string> italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS Constants</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.allCap.es</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+				<key>foreground</key>
+				<string>#8F5EB8</string>
 			</dict>
 		</dict>
 	<dict>
