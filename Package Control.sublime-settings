@@ -30,7 +30,8 @@
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
-		"Twig"
+		"Twig",
+		"zz File Icons"
 	],
 	"repositories":
 	[
