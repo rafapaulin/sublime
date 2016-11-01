@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>author</key>
@@ -8,6 +8,102 @@
 	<string>iPlastic</string>
 	<key>settings</key>
 	<array>
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_EF7F01FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#EF7F01FF</string>
+<key>foreground</key>
+<string>#4C2800FF</string>
+<key>caret</key>
+<string>#4C2800FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_text_color</string>
+<key>scope</key>
+<string>mcol_text_EF7F01FF</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#EEEEEfEB</string>
+<key>foreground</key>
+<string>#EF7F01FF</string>
+<key>caret</key>
+<string>#4C2800FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_0855A166</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#0855A166</string>
+<key>foreground</key>
+<string>#5EABF7FF</string>
+<key>caret</key>
+<string>#5EABF7FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_text_color</string>
+<key>scope</key>
+<string>mcol_text_0855A166</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#EEEEEfEB</string>
+<key>foreground</key>
+<string>#0855A166</string>
+<key>caret</key>
+<string>#5EABF7FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_color</string>
+<key>scope</key>
+<string>mcol_0855A180</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#0855A180</string>
+<key>foreground</key>
+<string>#5EABF7FF</string>
+<key>caret</key>
+<string>#5EABF7FF</string>
+</dict>
+</dict>
+
+<dict>
+<key>name</key>
+<string>mon_text_color</string>
+<key>scope</key>
+<string>mcol_text_0855A180</string>
+<key>settings</key>
+<dict>
+<key>background</key>
+<string>#EEEEEfEB</string>
+<key>foreground</key>
+<string>#0855A180</string>
+<key>caret</key>
+<string>#5EABF7FF</string>
+</dict>
+</dict>
+
 		<dict>
 			<key>settings</key>
 			<dict>
@@ -279,37 +375,7 @@
 				<string>bold</string>
 			</dict>
 		</dict>
-	<dict>
-            <key>name</key>
-            <string>SublimeLinter Warning</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#DDB700</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimeLinter Error</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#D02000</string>
-            </dict>
-        </dict></array>
+	</array>
 	<key>uuid</key>
 	<string>4FCFA210-B247-11D9-9D00-000D93347A42</string>
 </dict>
