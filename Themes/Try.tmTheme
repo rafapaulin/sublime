@@ -362,6 +362,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>JS Constants</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.allCap.es</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+				<key>foreground</key>
+				<string>#8F5EB8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>JS DOM</string>
 			<key>scope</key>
 			<string>support.variable.dom-library.es, punctuation.dollar.js, support.type.object.dom.js, support.variable.dom.es</string>
@@ -734,6 +747,30 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>PHP Expression</string>
+			<key>scope</key>
+			<string>punctuation.definition.expression.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFD900C9</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Item Arguments</string>
+			<key>scope</key>
+			<string>meta.item-access.arguments.php string.quoted.single.php meta.string-contents.quoted.single.php, meta.item-access.arguments.php string.quoted.double.php meta.string-contents.quoted.double.php, meta.item-access.arguments.php string.quoted.single.php punctuation.definition.string.begin.php, meta.item-access.arguments.php string.quoted.single.php punctuation.definition.string.end.php, meta.item-access.arguments.php string.quoted.double.php punctuation.definition.string.begin.php, meta.item-access.arguments.php string.quoted.double.php punctuation.definition.string.end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C47FDB</string>
+				<key>fontStyle</key>
+				<string> italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP Number</string>
 			<key>scope</key>
 			<string>constant.numeric.php</string>
@@ -1007,7 +1044,7 @@
 			<key>name</key>
 			<string>Twig Variable</string>
 			<key>scope</key>
-			<string>variable.other.twig</string>
+			<string>variable.other.twig, meta.tag.template.block.twig</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1049,6 +1086,30 @@
 				<string></string>
 				<key>foreground</key>
 				<string>#99D49F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig Bool</string>
+			<key>scope</key>
+			<string>constant.language.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+				<key>foreground</key>
+				<string>#B3348F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Twig Tag</string>
+			<key>scope</key>
+			<string>punctuation.section.tag.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#19CCC0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1104,56 +1165,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#565656</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP Expression</string>
-			<key>scope</key>
-			<string>punctuation.definition.expression.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFD900C9</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP Item Arguments</string>
-			<key>scope</key>
-			<string>meta.item-access.arguments.php string.quoted.single.php meta.string-contents.quoted.single.php, meta.item-access.arguments.php string.quoted.double.php meta.string-contents.quoted.double.php, meta.item-access.arguments.php string.quoted.single.php punctuation.definition.string.begin.php, meta.item-access.arguments.php string.quoted.single.php punctuation.definition.string.end.php, meta.item-access.arguments.php string.quoted.double.php punctuation.definition.string.begin.php, meta.item-access.arguments.php string.quoted.double.php punctuation.definition.string.end.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#C47FDB</string>
-				<key>fontStyle</key>
-				<string> italic</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS Constants</string>
-			<key>scope</key>
-			<string>variable.other.readwrite.allCap.es</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string> bold</string>
-				<key>foreground</key>
-				<string>#8F5EB8</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Twig Bool</string>
-			<key>scope</key>
-			<string>constant.language.twig</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string> bold</string>
-				<key>foreground</key>
-				<string>#B3348F</string>
 			</dict>
 		</dict>
 	</array>
