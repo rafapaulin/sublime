@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+public function ${1:Method Name}(){
+	${2:}
+}
+]]></content>
+	<tabTrigger>met</tabTrigger>
+	<scope>source.php</scope>
+</snippet>

@@ -823,7 +823,7 @@
 			<key>name</key>
 			<string>PHP Constants</string>
 			<key>scope</key>
-			<string>support.constant.core.php, support.constant.ext.php, constant.other.php</string>
+			<string>support.constant.core.php, support.constant.ext.php, constant.other.php, constant.other.class.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -950,7 +950,7 @@
 			<key>name</key>
 			<string>CSS&#x2f;Sass Support Functions</string>
 			<key>scope</key>
-			<string>support.function.rgba.css, support.function.calc.css, support.function.url.css, support.function.linear-gradient.css, support.function.rgba.sass, support.function.calc.sass, support.function.url.sass, support.function.linear-gradient.sass</string>
+			<string>support.function.rgba.css, support.function.calc.css, support.function.url.css, support.function.linear-gradient.css, support.function.rgba.sass, support.function.calc.sass, support.function.url.sass, support.function.linear-gradient.sass, support.function.cubic-bezier.css, support.function.scale.css, support.function.rotate.css, support.function.hsla.css, support.function.hsla.css, support.function.color-adjuster-rgb.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -974,7 +974,7 @@
 			<key>name</key>
 			<string>CSS&#x2f;Sass Operators</string>
 			<key>scope</key>
-			<string>keyword.operator.combinator.css, keyword.operator.combinator.sass, keyword.control.at-rule.media.css, source.sass keyword.control.at-rule.sass, keyword.control.untitled, keyword.operator.logic.media.css, keyword.other.important.css, keyword.operator.arithmetic.css</string>
+			<string>keyword.operator.combinator.css, keyword.operator.combinator.sass, keyword.control.at-rule.media.css, source.sass keyword.control.at-rule.sass, keyword.control.untitled, keyword.operator.logic.media.css, keyword.other.important.css, keyword.operator.arithmetic.css, keyword.control.at-rule.supports.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
