@@ -6,5 +6,5 @@
 ]]></content>
 	<tabTrigger>sep</tabTrigger>
 	<description>HTML code separator</description>
-	<scope>text.html.basic, text.html.twig</scope>
+	<scope>text.html.basic, text.html.twig, text.html.blade</scope>
 </snippet>

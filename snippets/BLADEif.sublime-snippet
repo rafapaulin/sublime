@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+@if(${1:conditional})
+${2:@elseif(${3:conditional})}
+${4:@else}
+@endif
+]]></content>
+	<tabTrigger>if</tabTrigger>
+	<scope>text.blade</scope>
+</snippet>

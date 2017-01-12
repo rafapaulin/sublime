@@ -4,6 +4,7 @@
 	{ "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
 	{ "keys": ["ctrl+'"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
 	{ "keys": ["ctrl+alt+a"], "command": "find_all_under" },
+	{ "keys": ["ctrl+shift+x"], "command": "unexpand_tabs", "args": { "set_translate_tabs": false } },
 
 //Origami 
 	// move to pane (or create a new one if move "off screen")

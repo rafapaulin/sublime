@@ -6,6 +6,6 @@
      */
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>doc</tabTrigger>
+	<tabTrigger>/**</tabTrigger>
 	<scope>source.js, source.es</scope>
 </snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+@section('${1}')
+	${2}
+@stop
+]]></content>
+	<tabTrigger>sec</tabTrigger>
+	<scope>text.blade</scope>
+</snippet>

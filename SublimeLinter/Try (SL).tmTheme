@@ -38,7 +38,7 @@
 			<key>name</key>
 			<string>Basic Text</string>
 			<key>scope</key>
-			<string>text.html.basic, source.js, source.es, text.html.twig</string>
+			<string>text.html.basic, source.js, source.es, text.html.twig, text.blade, text.html.blade</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -60,7 +60,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.double.php, meta.string-contents.quoted.double.php, string.quoted.double.css, string.quoted.single.css, string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.sass, string.quoted.double.sass, string.template.js, punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js</string>
+			<string>string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.double.php, meta.string-contents.quoted.double.php, string.quoted.double.css, string.quoted.single.css, string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.sass, string.quoted.double.sass, string.template.js, punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js, meta.attribute-with-value.style.html source.css</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -134,7 +134,7 @@
 			<key>name</key>
 			<string>Html Element</string>
 			<key>scope</key>
-			<string>entity.name.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.inline.a.html, entity.name.tag.inline.any.html, entity.name.tag.inline.form.html, entity.name.tag.structure.any.html, entity.name.tag.other.html, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, entity.name.tag.html, entity.name.tag.style.html, entity.name.tag.script.html</string>
+			<string>entity.name.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.inline.a.html, entity.name.tag.inline.any.html, entity.name.tag.inline.form.html, entity.name.tag.structure.any.html, entity.name.tag.other.html, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, entity.name.tag.html, entity.name.tag.style.html, entity.name.tag.script.html, entity.name.tag.block.form.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -214,7 +214,7 @@
 			<key>name</key>
 			<string>JS Function Parameter</string>
 			<key>scope</key>
-			<string>variable.parameter.es, variable.parameter.function.js</string>
+			<string>variable.parameter.es, variable.parameter.function.js, variable.parameter.rest.es, keyword.other.rest.parameter.es</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -606,7 +606,7 @@
 			<key>name</key>
 			<string>PHP KWs &amp; Operators</string>
 			<key>scope</key>
-			<string>storage.modifier.php, keyword.control.import.include.php, storage.modifier.extends.php, keyword.operator.assignment.php, keyword.control.php, keyword.operator.logical.php, keyword.operator.class.php, keyword.operator.key.php, keyword.operator.comparison.php, keyword.other.new.php, keyword.control.exception.php, keyword.control.exception.catch.php, keyword.operator.class.php, keyword.operator.string.php, keyword.operator.increment-decrement.php, keyword.operator.arithmetic.php, meta.array.php support.function.construct.php, keyword.other.namespace.php, keyword.other.use.php, storage.modifier.reference.php, support.function.basic_functions.php, keyword.other.function.use.php, storage.modifier.implements.php, keyword.operator.type.php, storage.modifier.abstract.php, keyword.operator.error-control.php</string>
+			<string>keyword.control.import.include.php, storage.modifier.extends.php, keyword.operator.assignment.php, keyword.control.php, keyword.operator.logical.php, keyword.operator.class.php, keyword.operator.key.php, keyword.operator.comparison.php, keyword.other.new.php, keyword.control.exception.php, keyword.control.exception.catch.php, keyword.operator.class.php, keyword.operator.string.php, keyword.operator.increment-decrement.php, keyword.operator.arithmetic.php, meta.array.php support.function.construct.php, keyword.other.namespace.php, keyword.other.use.php, storage.modifier.reference.php, support.function.basic_functions.php, keyword.other.function.use.php, storage.modifier.implements.php, keyword.operator.type.php, storage.modifier.abstract.php, keyword.operator.error-control.php, storage.modifier.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -732,7 +732,7 @@
 			<key>name</key>
 			<string>PHP Support Functions</string>
 			<key>scope</key>
-			<string>support.function.construct.php, support.function.php, support.function.json.php, support.function.string.php, support.function.network.php, support.function.php_pcre.php, support.function.var.php, support.function.datetime.php, support.function.array.php, support.function.file.php, support.function.file.php, support.function.filter.php, support.function.url.php, support.function.image.php, support.function.session.php, support.function.mbstring.php, support.function.info.php, support.function.output.php, support.function.xml.php, support.function.errorfunc.php, support.function.basic_functions.php_MPDF_TEMP_PATH, support.function.php_spl.php, support.function.funchand.php, support.function.curl.php, support.function.ereg.php, support.function.math.php</string>
+			<string>support.function.construct.php, support.function.php, support.function.json.php, support.function.string.php, support.function.network.php, support.function.php_pcre.php, support.function.var.php, support.function.datetime.php, support.function.array.php, support.function.file.php, support.function.file.php, support.function.filter.php, support.function.url.php, support.function.image.php, support.function.session.php, support.function.mbstring.php, support.function.info.php, support.function.output.php, support.function.xml.php, support.function.errorfunc.php, support.function.basic_functions.php_MPDF_TEMP_PATH, support.function.php_spl.php, support.function.funchand.php, support.function.curl.php, support.function.ereg.php, support.function.math.php, support.function.classobj.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -819,7 +819,7 @@
 			<key>name</key>
 			<string>PHP Constants</string>
 			<key>scope</key>
-			<string>support.constant.core.php, support.constant.ext.php, constant.other.php, constant.other.class.php</string>
+			<string>support.constant.core.php, support.constant.ext.php, constant.other.php, constant.other.class.php, constant.class.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -922,7 +922,7 @@
 			<key>name</key>
 			<string>CSS/Sass Constants</string>
 			<key>scope</key>
-			<string>support.constant.property-value.css, support.constant.property-value.sass, support.type.property-name.sass, meta.property-value.line-height.css</string>
+			<string>support.constant.property-value.css, support.constant.property-value.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -946,7 +946,7 @@
 			<key>name</key>
 			<string>CSS/Sass Support Functions</string>
 			<key>scope</key>
-			<string>support.function.rgba.css, support.function.calc.css, support.function.url.css, support.function.linear-gradient.css, support.function.rgba.sass, support.function.calc.sass, support.function.url.sass, support.function.linear-gradient.sass, support.function.cubic-bezier.css, support.function.scale.css, support.function.rotate.css, support.function.hsla.css, support.function.hsla.css, support.function.color-adjuster-rgb.css</string>
+			<string>support.function.rgba.css, support.function.calc.css, support.function.url.css, support.function.linear-gradient.css, support.function.rgba.sass, support.function.calc.sass, support.function.url.sass, support.function.linear-gradient.sass, support.function.cubic-bezier.css, support.function.scale.css, support.function.rotate.css, support.function.hsla.css, support.function.hsla.css, support.function.color-adjuster-rgb.css, support.function.format.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -970,7 +970,7 @@
 			<key>name</key>
 			<string>CSS/Sass Operators</string>
 			<key>scope</key>
-			<string>keyword.operator.combinator.css, keyword.operator.combinator.sass, keyword.control.at-rule.media.css, source.sass keyword.control.at-rule.sass, keyword.control.untitled, keyword.operator.logic.media.css, keyword.other.important.css, keyword.operator.arithmetic.css, keyword.control.at-rule.supports.css</string>
+			<string>keyword.operator.combinator.css, keyword.operator.combinator.sass, keyword.control.at-rule.media.css, source.sass keyword.control.at-rule.sass, keyword.control.untitled, keyword.operator.logic.media.css, keyword.other.important.css, keyword.operator.arithmetic.css, keyword.control.at-rule.supports.css, keyword.control.at-rule.font-face.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -1005,7 +1005,7 @@
 			<key>name</key>
 			<string>CSS/Sass Url Property</string>
 			<key>scope</key>
-			<string>variable.parameter.url</string>
+			<string>variable.parameter.url,</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1163,17 +1163,44 @@
 				<string>#565656</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Blade Compilers</string>
+			<key>scope</key>
+			<string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php entity.name.tag.block.any.html, custom.compiler.blade.php punctuation.section.embedded.php</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+				<key>foreground</key>
+				<string>#D66262</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Blade Tag</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.begin.blade, punctuation.section.embedded.end.blade</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#19CCC0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Html Events</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.event.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D66262</string>
+				<key>fontStyle</key>
+				<string> bold</string>
+			</dict>
+		</dict>
 	<dict>
-            <key>name</key>
-            <string>SublimeLinter Warning</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#DDB700</string>
-            </dict>
-        </dict><dict>
             <key>name</key>
             <string>SublimeLinter Error</string>
             <key>scope</key>
@@ -1192,6 +1219,16 @@
             <dict>
                 <key>foreground</key>
                 <string>#FFFFFF</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Warning</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDB700</string>
             </dict>
         </dict></array>
 	<key>uuid</key>

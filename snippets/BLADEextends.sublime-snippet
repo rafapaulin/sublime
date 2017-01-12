@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+@extends('${1}')
+]]></content>
+	<tabTrigger>ext</tabTrigger>
+	<scope>text.blade</scope>
+</snippet>

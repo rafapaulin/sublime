@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+@can(${1:conditional})
+@endif
+]]></content>
+	<tabTrigger>can</tabTrigger>
+	<scope>text.blade</scope>
+</snippet>
