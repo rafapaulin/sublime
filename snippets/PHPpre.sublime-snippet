@@ -1,11 +1,7 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <content><![CDATA[
+	<content><![CDATA[
 echo '<pre>'.print_r(\$${1:var}, true).'</pre>'; die();
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>pre</tabTrigger>
-  <description>pre Debug</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php, source.js, source.es</scope>
+	<tabTrigger>pre</tabTrigger>
+	<scope>source.php</scope>
 </snippet>

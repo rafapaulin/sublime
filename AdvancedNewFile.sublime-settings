@@ -1,10 +1,10 @@
 {
-	// This setting contains a dictionary of aliases. The keys represent the alias names, the values represent the paths.
-	// NOTE: These should be absolute paths. Also, these paths should
-	// match your systems convention. For example, Windows machines should
-	// have paths similar to "C:\\Users\\username\\Desktop". *nix systems should
-	// have paths similar to "/home/username/desktop".
-	"alias": {},
+    // This setting contains a dictionary of aliases. The keys represent the alias names, the values represent the paths.
+    // NOTE: These should be absolute paths. Also, these paths should
+    // match your systems convention. For example, Windows machines should
+    // have paths similar to "C:\\Users\\username\\Desktop". *nix systems should
+    // have paths similar to "/home/username/desktop".
+    "alias": {},
 
     // A boolean defining if cursor text should be used. Text bound by single or
     // double quotes or within a region will be used. If multiple cursors
@@ -12,7 +12,7 @@
     // within quotes will be used.
     // NOTE: A value read from cursor will override the default
     // initial string setting.
-	"use_cursor_text": true,
+    "use_cursor_text": true,
 
     // A boolean specifying if the file path being created should be displayed in
     // the status bar.
