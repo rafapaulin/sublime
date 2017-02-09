@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"All Autocomplete",
 		"BracketHighlighter",
@@ -15,7 +16,6 @@
 		"Ecmascript Syntax",
 		"Emmet",
 		"GitGutter",
-		"GitGutter-Edge",
 		"HTML5",
 		"HTMLEntity Snippets",
 		"Laravel Blade Highlighter",
@@ -33,8 +33,7 @@
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
-		"Twig",
-		"zz File Icons"
+		"Twig"
 	],
 	"repositories":
 	[

@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 @can(${1:conditional})
-@endif
+@endcan
 ]]></content>
 	<tabTrigger>can</tabTrigger>
 	<scope>text.blade</scope>

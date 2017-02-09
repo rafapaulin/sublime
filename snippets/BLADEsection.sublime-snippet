@@ -2,7 +2,7 @@
 	<content><![CDATA[
 @section('${1}')
 	${2}
-@stop
+@endsection
 ]]></content>
 	<tabTrigger>sec</tabTrigger>
 	<scope>text.blade</scope>

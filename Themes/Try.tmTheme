@@ -138,7 +138,7 @@
 			<key>name</key>
 			<string>Html Element</string>
 			<key>scope</key>
-			<string>entity.name.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.inline.a.html, entity.name.tag.inline.any.html, entity.name.tag.inline.form.html, entity.name.tag.structure.any.html, entity.name.tag.other.html, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, entity.name.tag.html, entity.name.tag.style.html, entity.name.tag.script.html, entity.name.tag.block.form.html</string>
+			<string>entity.name.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.inline.a.html, entity.name.tag.inline.any.html, entity.name.tag.inline.form.html, entity.name.tag.structure.any.html, entity.name.tag.other.html, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, entity.name.tag.html, entity.name.tag.style.html, entity.name.tag.script.html, entity.name.tag.block.form.html, entity.name.tag.inline.table.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -623,7 +623,7 @@
 			<key>name</key>
 			<string>PHP Class</string>
 			<key>scope</key>
-			<string>entity.name.class.php, entity.name.interface.php</string>
+			<string>entity.name.class.php, entity.name.interface.php, entity.name.trait.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -664,7 +664,7 @@
 			<key>name</key>
 			<string>PHP storage type KW</string>
 			<key>scope</key>
-			<string>storage.type.php, storage.type.class.php, storage.type.interface.php, storage.modifier.php</string>
+			<string>storage.type.php, storage.type.class.php, storage.type.interface.php, storage.modifier.php, storage.type.trait.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -1171,7 +1171,7 @@
 			<key>name</key>
 			<string>Blade Compilers</string>
 			<key>scope</key>
-			<string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php entity.name.tag.block.any.html, custom.compiler.blade.php punctuation.section.embedded.php</string>
+			<string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php entity.name.tag.block.any.html, custom.compiler.blade.php punctuation.section.embedded.php, text.blade text.html.blade custom.compiler.blade.php constant.other.inline-data.html</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
