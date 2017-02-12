@@ -19,6 +19,7 @@
 		"HTML5",
 		"HTMLEntity Snippets",
 		"Laravel Blade Highlighter",
+		"LuaExtended",
 		"Material Theme",
 		"Mybb Template Editor",
 		"Origami",
@@ -33,7 +34,10 @@
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
-		"Twig"
+		"Twig",
+		"World of Warcraft Macro Syntax",
+		"World of Warcraft TOC file Syntax",
+		"World of Warcraft XML file Syntax"
 	],
 	"repositories":
 	[
