@@ -42,5 +42,9 @@
 	"repositories":
 	[
 		"https://github.com/i-akhmadullin/Sublime-CSS3"
-	]
+	],
+	"proxy_username":"rafael.castro",
+	"proxy_password":"gary14@iesde",
+	"http_proxy":"brgsrvproxy.iesde.local:3128",
+	"https_proxy":"brgsrvproxy.iesde.local:3128",
 }

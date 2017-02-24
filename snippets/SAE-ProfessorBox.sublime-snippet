@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<a class="professor" href="#professor${1:id}">Para o professor</a>
+<div class="professor" id="professor${1:id}">
+	${2}
+</div>
+]]></content>
+	<tabTrigger>prof</tabTrigger>
+	<scope>text.html.basic</scope>
+</snippet>
