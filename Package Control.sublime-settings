@@ -1,5 +1,7 @@
 {
 	"bootstrapped": true,
+	"http_proxy": "brgsrvproxy.iesde.local:3128",
+	"https_proxy": "brgsrvproxy.iesde.local:3128",
 	"in_process_packages":
 	[
 	],
@@ -39,12 +41,10 @@
 		"World of Warcraft TOC file Syntax",
 		"World of Warcraft XML file Syntax"
 	],
+	"proxy_password": "gary14@iesde",
+	"proxy_username": "rafael.castro",
 	"repositories":
 	[
 		"https://github.com/i-akhmadullin/Sublime-CSS3"
-	],
-	"proxy_username":"rafael.castro",
-	"proxy_password":"gary14@iesde",
-	"http_proxy":"brgsrvproxy.iesde.local:3128",
-	"https_proxy":"brgsrvproxy.iesde.local:3128",
+	]
 }

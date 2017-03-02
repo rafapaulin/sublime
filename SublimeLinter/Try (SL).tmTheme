@@ -49,7 +49,7 @@
 			<key>name</key>
 			<string>Def, Pont, Sep, etc.</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js, punctuation.terminator.expression.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.separator.php, punctuation.section.tag.twig, punctuation.definition.brackets.js, meta.delimiter.comma.js, source.sass, text.xml, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, text.plain, punctuation.section.property-list.begin.css, punctuation.section.property-list.end.css, punctuation.separator.key-value.css, punctuation.terminator.rule.css, punctuation.section.at-media.begin.css, punctuation.section.at-media.begin.css, punctuation.section.media-feature.begin.css, punctuation.section.media-feature.begin.css, source.php, source.css, source.js, source.es, punctuation.section.brackets.begin.php, punctuation.section.brackets.end.php</string>
+			<string>punctuation.definition.tag.html, punctuation.definition.tag.end.html, punctuation.definition.tag.begin.html, punctuation.separator.key-value.html, source.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json, meta.structure.dictionary.json, punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.definition.block.js, punctuation.terminator.statement.js, punctuation.definition.group.js, punctuation.terminator.expression.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.separator.php, punctuation.section.tag.twig, punctuation.definition.brackets.js, meta.delimiter.comma.js, source.sass, text.xml, punctuation.definition.group.js, punctuation.definition.group.begin.php, punctuation.definition.group.end.php, punctuation.definition.block.begin.php, punctuation.definition.block.end.php, punctuation.section.array.begin.php, punctuation.section.array.end.php, punctuation.separator.key-value.es, punctuation.separator.label-statement.es, text.plain, punctuation.section.property-list.begin.css, punctuation.section.property-list.end.css, punctuation.separator.key-value.css, punctuation.terminator.rule.css, punctuation.section.at-media.begin.css, punctuation.section.at-media.begin.css, punctuation.section.media-feature.begin.css, punctuation.section.media-feature.begin.css, source.php, source.css, source.js, source.es, punctuation.section.brackets.begin.php, punctuation.section.brackets.end.php, punctuation.separator.key-value.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1200,17 +1200,29 @@
 				<string> bold</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Class Name</string>
+			<key>scope</key>
+			<string>meta.attribute-with-value.class.html string.unquoted.html meta.class-name.html, meta.attribute-with-value.class.html string.quoted.double.html meta.class-name.html, meta.attribute-with-value.class.html string.quoted.single.html meta.class-name.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#88E8CB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML ID Name</string>
+			<key>scope</key>
+			<string>meta.attribute-with-value.id.html string.unquoted.html meta.toc-list.id.html, meta.attribute-with-value.id.html string.quoted.single.html meta.toc-list.id.html, meta.attribute-with-value.id.html string.quoted.double.html meta.toc-list.id.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F0C690</string>
+			</dict>
+		</dict>
 	<dict>
-            <key>name</key>
-            <string>SublimeLinter Error</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#D02000</string>
-            </dict>
-        </dict><dict>
             <key>name</key>
             <string>SublimeLinter Gutter Mark</string>
             <key>scope</key>
@@ -1229,6 +1241,16 @@
             <dict>
                 <key>foreground</key>
                 <string>#DDB700</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Error</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D02000</string>
             </dict>
         </dict></array>
 	<key>uuid</key>

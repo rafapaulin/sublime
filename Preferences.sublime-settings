@@ -1,5 +1,6 @@
 {
 	"auto_complete_commit_on_tab": false,
+	"auto_indent": true,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/SublimeLinter/Try (SL).tmTheme",
@@ -19,9 +20,6 @@
 		"draw_active"
 	],
 	"indent_subsequent_lines": false,
-	"auto_indent": true,
-	"smart_indent": true,
-	"trim_automatic_white_space": true,
 	"indent_to_bracket": false,
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
@@ -38,8 +36,10 @@
 	"overlay_scroll_bars": "enabled",
 	"padding": 0,
 	"shift_tab_unindent": true,
+	"smart_indent": true,
 	"spell_check": false,
-	"theme": "Material-Theme-Darker.sublime-theme",
 	"tab_size": 4,
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": false,
+	"trim_automatic_white_space": true
 }
