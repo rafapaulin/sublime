@@ -145,7 +145,7 @@
 			<key>name</key>
 			<string>JS var, let, const KWs</string>
 			<key>scope</key>
-			<string>storage.type.variable.let.es, storage.type.variable.var.es, storage.type.constant.es, storage.type.js</string>
+			<string>storage.type.variable.let.es, storage.type.variable.var.es, storage.type.constant.es, storage.type.js, storage.type.class.es</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -158,7 +158,7 @@
 			<key>name</key>
 			<string>JS function &amp; class KWs, Methods</string>
 			<key>scope</key>
-			<string>storage.type.function.js, storage.type.function.expression.es, storage.type.function.js, storage.type.function.es, storage.type.class.es, entity.name.method.js, entity.name.method.es, storage.type.function.arrow.es</string>
+			<string>storage.type.function.js, storage.type.function.expression.es, storage.type.function.js, storage.type.function.es, storage.type.function.arrow.es</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -286,7 +286,7 @@
 			<key>name</key>
 			<string>JS Function Name</string>
 			<key>scope</key>
-			<string>entity.name.function.es, meta.function.js, entity.name.function.js, meta.symbol-helper.function.es, entity.name.function.es, meta.invocation.es, variable.function.js, support.function.console.js, support.function.js, entity.name.function.initCap.es, variable.language.prototype.es, meta.function-call.constructor.js variable.type.js, support.function.mutator.js</string>
+			<string>entity.name.function.es, meta.function.js, entity.name.function.js, meta.symbol-helper.function.es, entity.name.function.es, meta.invocation.es, variable.function.js, support.function.console.js, support.function.js, entity.name.function.initCap.es, variable.language.prototype.es, meta.function-call.constructor.js variable.type.js, support.function.mutator.js, entity.name.method.js, entity.name.method.es</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -1224,16 +1224,6 @@
 		</dict>
 	<dict>
             <key>name</key>
-            <string>SublimeLinter Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimelinter.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
             <string>SublimeLinter Warning</string>
             <key>scope</key>
             <string>sublimelinter.mark.warning</string>
@@ -1251,6 +1241,16 @@
             <dict>
                 <key>foreground</key>
                 <string>#D02000</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
             </dict>
         </dict></array>
 	<key>uuid</key>
