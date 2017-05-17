@@ -11,8 +11,7 @@
 	"ignored_packages":
 	[
 		"JavaScript",
-		"Vintage",
-		"World of Warcraft TOC file Syntax"
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
@@ -45,5 +44,6 @@
 	"tab_size": 4,
 	"theme": "Material-Theme-Darker.sublime-theme",
 	"translate_tabs_to_spaces": false,
-	"trim_automatic_white_space": true
+	"trim_automatic_white_space": true,
+	"word_wrap": "false"
 }

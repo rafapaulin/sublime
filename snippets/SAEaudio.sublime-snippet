@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<div class="alinhaDireita" style="position: relative;">
+	<span class="audioNumber" style="position: absolute;top:15px;left:35%; font-weight: bold; font-size: 1.4em;">${1}</span>
+	<img src="resources/image/SAE_EF2_icone_audio.jpg" alt=""  />
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>aud</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html</scope>
+</snippet>
