@@ -847,6 +847,21 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>PHP Bitwise Operators</string>
+			<key>scope</key>
+			<string>keyword.operator.bitwise.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF0000</string>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string> bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>CSS&#x2f;Sass Class</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.class.css, entity.other.attribute-name.class.sass,</string>
