@@ -610,7 +610,7 @@
 			<key>name</key>
 			<string>PHP KWs &amp; Operators</string>
 			<key>scope</key>
-			<string>keyword.control.import.include.php, storage.modifier.extends.php, keyword.operator.assignment.php, keyword.control.php, keyword.operator.logical.php, keyword.operator.class.php, keyword.operator.key.php, keyword.operator.comparison.php, keyword.other.new.php, keyword.control.exception.php, keyword.control.exception.catch.php, keyword.operator.class.php, keyword.operator.string.php, keyword.operator.increment-decrement.php, keyword.operator.arithmetic.php, meta.array.php support.function.construct.php, keyword.other.namespace.php, keyword.other.use.php, storage.modifier.reference.php, support.function.basic_functions.php, keyword.other.function.use.php, storage.modifier.implements.php, keyword.operator.type.php, storage.modifier.abstract.php, keyword.operator.error-control.php</string>
+			<string>keyword.other.use-as.php, keyword.control.import.include.php, storage.modifier.extends.php, keyword.operator.assignment.php, keyword.control.php, keyword.operator.logical.php, keyword.operator.class.php, keyword.operator.key.php, keyword.operator.comparison.php, keyword.other.new.php, keyword.control.exception.php, keyword.control.exception.catch.php, keyword.operator.class.php, keyword.operator.string.php, keyword.operator.increment-decrement.php, keyword.operator.arithmetic.php, meta.array.php support.function.construct.php, keyword.other.namespace.php, keyword.other.use.php, storage.modifier.reference.php, support.function.basic_functions.php, keyword.other.function.use.php, storage.modifier.implements.php, keyword.operator.type.php, storage.modifier.abstract.php, keyword.operator.error-control.php, punctuation.accessor.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -736,7 +736,7 @@
 			<key>name</key>
 			<string>PHP Support Functions</string>
 			<key>scope</key>
-			<string>support.function.construct.php, support.function.php, support.function.json.php, support.function.string.php, support.function.network.php, support.function.php_pcre.php, support.function.var.php, support.function.datetime.php, support.function.array.php, support.function.file.php, support.function.file.php, support.function.filter.php, support.function.url.php, support.function.image.php, support.function.session.php, support.function.mbstring.php, support.function.info.php, support.function.output.php, support.function.xml.php, support.function.errorfunc.php, support.function.basic_functions.php_MPDF_TEMP_PATH, support.function.php_spl.php, support.function.funchand.php, support.function.curl.php, support.function.ereg.php, support.function.math.php, support.function.classobj.php, support.function.exec.php, support.function.dir.php, support.function.ctype.php</string>
+			<string>support.function.construct.php, support.function.php, support.function.json.php, support.function.string.php, support.function.network.php, support.function.php_pcre.php, support.function.var.php, support.function.datetime.php, support.function.array.php, support.function.file.php, support.function.file.php, support.function.filter.php, support.function.url.php, support.function.image.php, support.function.session.php, support.function.mbstring.php, support.function.info.php, support.function.output.php, support.function.xml.php, support.function.errorfunc.php, support.function.basic_functions.php_MPDF_TEMP_PATH, support.function.php_spl.php, support.function.funchand.php, support.function.curl.php, support.function.ereg.php, support.function.math.php, support.function.classobj.php, support.function.exec.php, support.function.dir.php, support.function.ctype.php, support.function.streamsfuncs.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -941,7 +941,7 @@
 			<key>name</key>
 			<string>CSS&#x2f;Sass Constants</string>
 			<key>scope</key>
-			<string>support.constant.property-value.css, support.constant.property-value.sass</string>
+			<string>support.constant.property-value.css, support.constant.property-value.sass, support.constant.font-name.css, support.constant.font-name.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1186,7 +1186,7 @@
 			<key>name</key>
 			<string>Blade Compilers</string>
 			<key>scope</key>
-			<string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php entity.name.tag.block.any.html, custom.compiler.blade.php punctuation.section.embedded.php, text.blade text.html.blade custom.compiler.blade.php constant.other.inline-data.html</string>
+			<string>text.blade text.html.blade custom.compiler.blade.php punctuation.section.embedded.php entity.name.tag.block.any.html, custom.compiler.blade.php punctuation.section.embedded.php, text.blade text.html.blade custom.compiler.blade.php constant.other.inline-data.html, text.blade text.html.blade custom.compiler.blade.php support.function</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
