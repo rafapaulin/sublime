@@ -1,7 +1,5 @@
 {
 	"bootstrapped": true,
-	"http_proxy": "brgsrvproxy.iesde.local:3128",
-	"https_proxy": "brgsrvproxy.iesde.local:3128",
 	"in_process_packages":
 	[
 	],
@@ -19,24 +17,19 @@
 		"HTML5",
 		"HTMLEntity Snippets",
 		"JSON Reindent",
-		"Laravel Blade Highlighter",
 		"Material Theme",
 		"Origami",
 		"Package Control",
 		"PackageResourceViewer",
 		"PHP Companion",
-		"Sass",
-		"SASS Build",
-		"SassSolution",
+		"SASS Snippets",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
-		"Twig"
+		"Syntax Highlighting for Sass"
 	],
-	"proxy_password": "gary14@iesde",
-	"proxy_username": "rafael.castro",
 	"repositories":
 	[
 		"https://github.com/i-akhmadullin/Sublime-CSS3"

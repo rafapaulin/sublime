@@ -60,7 +60,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.double.php, meta.string-contents.quoted.double.php, string.quoted.double.css, string.quoted.single.css, string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.sass, string.quoted.double.sass, string.template.js, punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js, meta.attribute-with-value.style.html source.css</string>
+			<string>string.quoted.css.sass, string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.double.php, meta.string-contents.quoted.double.php, string.quoted.double.css, string.quoted.single.css, string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.sass, string.quoted.double.sass, string.template.js, punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js, meta.attribute-with-value.style.html source.css</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -134,7 +134,7 @@
 			<key>name</key>
 			<string>Html Element</string>
 			<key>scope</key>
-			<string>entity.name.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.inline.a.html, entity.name.tag.inline.any.html, entity.name.tag.inline.form.html, entity.name.tag.structure.any.html, entity.name.tag.other.html, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, entity.name.tag.html, entity.name.tag.style.html, entity.name.tag.script.html, entity.name.tag.block.form.html, entity.name.tag.inline.table.html</string>
+			<string>entity.name.tag.custom.html,entity.name.tag.block.any.html, entity.name.tag.inline.any.html, entity.name.tag.inline.a.html, entity.name.tag.inline.any.html, entity.name.tag.inline.form.html, entity.name.tag.structure.any.html, entity.name.tag.other.html, punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php, entity.name.tag.html, entity.name.tag.style.html, entity.name.tag.script.html, entity.name.tag.block.form.html, entity.name.tag.inline.table.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -171,28 +171,13 @@
 			<key>name</key>
 			<string>JS Operators</string>
 			<key>scope</key>
-			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, constant.language.nan.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.operator.arithmetic.js, keyword.operator.assignment.js, keyword.control.conditional.js, keyword.operator.logical.js, keyword.operator.comparison.js, keyword.control.loop.in.es, keyword.control.flow.js, keyword.control.flow.throw.es, keyword.control.flow.continue.es, keyword.control.loop.of.es, keyword.operator.new.js, keyword.control.loop.js, keyword.operator.relational.js</string>
+			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, constant.language.nan.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.operator.arithmetic.js, keyword.operator.assignment.js, keyword.control.conditional.js, keyword.operator.logical.js, keyword.operator.comparison.js, keyword.control.loop.in.es, keyword.control.flow.js, keyword.control.flow.throw.es, keyword.control.flow.continue.es, keyword.control.loop.of.es, keyword.operator.new.js, keyword.control.loop.js, keyword.operator.relational.js, keyword.operator.spread.es, keyword.operator.bitwise.logical.and.es, keyword.operator.bitwise.logical.or.es, keyword.operator.bitwise.logical.not.es, keyword.operator.bitwise.logical.xor.es, keyword.operator.bitwise.shift.left.es, keyword.operator.bitwise.shift.right.es</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string> bold</string>
 				<key>foreground</key>
 				<string>#D66262</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JS Bitwise Operators</string>
-			<key>scope</key>
-			<string>keyword.operator.bitwise.logical.and.es, keyword.operator.bitwise.logical.or.es, keyword.operator.bitwise.logical.not.es, keyword.operator.bitwise.logical.xor.es, keyword.operator.bitwise.shift.left.es, keyword.operator.bitwise.shift.right.es</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FF0000</string>
-				<key>background</key>
-				<string />
-				<key>fontStyle</key>
-				<string> bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -606,7 +591,7 @@
 			<key>name</key>
 			<string>PHP KWs &amp; Operators</string>
 			<key>scope</key>
-			<string>keyword.other.use-as.php, keyword.control.import.include.php, storage.modifier.extends.php, keyword.operator.assignment.php, keyword.control.php, keyword.operator.logical.php, keyword.operator.class.php, keyword.operator.key.php, keyword.operator.comparison.php, keyword.other.new.php, keyword.control.exception.php, keyword.control.exception.catch.php, keyword.operator.class.php, keyword.operator.string.php, keyword.operator.increment-decrement.php, keyword.operator.arithmetic.php, meta.array.php support.function.construct.php, keyword.other.namespace.php, keyword.other.use.php, storage.modifier.reference.php, support.function.basic_functions.php, keyword.other.function.use.php, storage.modifier.implements.php, keyword.operator.type.php, storage.modifier.abstract.php, keyword.operator.error-control.php, punctuation.accessor.php</string>
+			<string>keyword.other.use-as.php, keyword.control.import.include.php, storage.modifier.extends.php, keyword.operator.assignment.php, keyword.control.php, keyword.operator.logical.php, keyword.operator.class.php, keyword.operator.key.php, keyword.operator.comparison.php, keyword.other.new.php, keyword.control.exception.php, keyword.control.exception.catch.php, keyword.operator.class.php, keyword.operator.string.php, keyword.operator.increment-decrement.php, keyword.operator.arithmetic.php, meta.array.php support.function.construct.php, keyword.other.namespace.php, keyword.other.use.php, storage.modifier.reference.php, support.function.basic_functions.php, keyword.other.function.use.php, storage.modifier.implements.php, keyword.operator.type.php, storage.modifier.abstract.php, keyword.operator.error-control.php, punctuation.accessor.php, punctuation.accessor.arrow.php, punctuation.accessor.double-colon.php, keyword.operator.bitwise.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -769,7 +754,7 @@
 			<key>name</key>
 			<string>PHP Number</string>
 			<key>scope</key>
-			<string>constant.numeric.php</string>
+			<string>constant.numeric.php, constant.numeric.integer.decimal.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -843,21 +828,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP Bitwise Operators</string>
-			<key>scope</key>
-			<string>keyword.operator.bitwise.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FF0000</string>
-				<key>background</key>
-				<string />
-				<key>fontStyle</key>
-				<string> bold</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>CSS/Sass Class</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.class.css, entity.other.attribute-name.class.sass,</string>
@@ -882,7 +852,7 @@
 			<key>name</key>
 			<string>CSS/Sass Html Element</string>
 			<key>scope</key>
-			<string>entity.name.tag.css, entity.name.tag.sass</string>
+			<string>entity.name.tag.css, entity.name.tag.sass, entity.name.tag.css.sass.symbol, keyword.other.parent-selector.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -937,7 +907,7 @@
 			<key>name</key>
 			<string>CSS/Sass Constants</string>
 			<key>scope</key>
-			<string>support.constant.property-value.css, support.constant.property-value.sass, support.constant.font-name.css, support.constant.font-name.sass</string>
+			<string>keyword.other.reserved.sass, support.constant.property-value.css, support.constant.property-value.sass, support.constant.font-name.css, support.constant.font-name.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -961,7 +931,7 @@
 			<key>name</key>
 			<string>CSS/Sass Support Functions</string>
 			<key>scope</key>
-			<string>support.function.rgba.css, support.function.calc.css, support.function.url.css, support.function.linear-gradient.css, support.function.rgba.sass, support.function.calc.sass, support.function.url.sass, support.function.linear-gradient.sass, support.function.cubic-bezier.css, support.function.scale.css, support.function.rotate.css, support.function.hsla.css, support.function.hsla.css, support.function.color-adjuster-rgb.css, support.function.format.css</string>
+			<string>support.function.sass, support.function.rgba.css, support.function.calc.css, support.function.url.css, support.function.linear-gradient.css, support.function.rgba.sass, support.function.calc.sass, support.function.url.sass, support.function.linear-gradient.sass, support.function.cubic-bezier.css, support.function.scale.css, support.function.rotate.css, support.function.hsla.css, support.function.hsla.css, support.function.color-adjuster-rgb.css, support.function.format.css, support.function.name.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -974,7 +944,7 @@
 			<key>name</key>
 			<string>CSS/Sass Pseudos</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css, source.sass entity.other.attribute-name.tag.pseudo-class, entity.other.attribute-name.tag.pseudo-element</string>
+			<string>entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css, source.sass entity.other.attribute-name.tag.pseudo-class, entity.other.attribute-name.tag.pseudo-element, entity.other.pseudo-class.css.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -985,7 +955,7 @@
 			<key>name</key>
 			<string>CSS/Sass Operators</string>
 			<key>scope</key>
-			<string>keyword.operator.combinator.css, keyword.operator.combinator.sass, keyword.control.at-rule.media.css, source.sass keyword.control.at-rule.sass, keyword.control.untitled, keyword.operator.logic.media.css, keyword.other.important.css, keyword.operator.arithmetic.css, keyword.control.at-rule.supports.css, keyword.control.at-rule.font-face.css</string>
+			<string>keyword.operator.css.sass, keyword.operator.combinator.css, keyword.operator.combinator.sass, keyword.control.at-rule.media.css, source.sass keyword.control.at-rule.sass, keyword.control.untitled, keyword.operator.logic.media.css, keyword.other.important.css, keyword.operator.arithmetic.css, keyword.control.at-rule.supports.css, keyword.control.at-rule.font-face.css, keyword.operator.sass, keyword.control.at-rule.css.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -998,7 +968,7 @@
 			<key>name</key>
 			<string>CSS/Sass Variables</string>
 			<key>scope</key>
-			<string>variable.parameter.sass, support.constant.media.css</string>
+			<string>variable.sass, variable.parameter.sass, support.constant.media.css, source.sass meta.property-list.css.sass variable.other.value, source.sass variable.other</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
