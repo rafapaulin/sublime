@@ -28,7 +28,8 @@
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
-		"Syntax Highlighting for Sass"
+		"Syntax Highlighting for Sass",
+		"TypeScript Syntax"
 	],
 	"repositories":
 	[
