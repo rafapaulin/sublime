@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<a class="professor">Para o professor</a>
-<div class="professor">
-</div>
-]]></content>
-	<tabTrigger>prof</tabTrigger>
-	<scope>text.html.basic</scope>
-</snippet>

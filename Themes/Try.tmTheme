@@ -64,7 +64,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string.quoted.css.sass, string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.double.php, meta.string-contents.quoted.double.php, string.quoted.double.css, string.quoted.single.css, string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.sass, string.quoted.double.sass, string.template.js, punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js, meta.attribute-with-value.style.html source.css, string.quoted.single.ts, string.template.ts, punctuation.definition.string.template.begin.ts, punctuation.definition.string.template.end.ts</string>
+			<string>string.quoted.css.sass, string.quoted.double.html, string.quoted.single.html, string.quoted.single.es, string.quoted.double.es, string.interpolated.es, string.quoted.single.js, string.quoted.double.js, string.quoted.single.php, meta.string-contents.quoted.single.php, string.quoted.double.php, meta.string-contents.quoted.double.php, string.quoted.double.css, string.quoted.single.css, string.quoted.single.twig, string.quoted.double.twig, string.quoted.single.sass, string.quoted.double.sass, string.template.js, punctuation.definition.string.template.begin.js, punctuation.definition.string.template.end.js, meta.attribute-with-value.style.html source.css, string.quoted.single.ts, string.template.ts, punctuation.definition.string.template.begin.ts, punctuation.definition.string.template.end.ts, string.quoted.double.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -168,7 +168,7 @@
 				<key>foreground</key>
 				<string>#ADD3FF</string>
 				<key>fontStyle</key>
-				<string>  italic </string>
+				<string>  italic  bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -188,7 +188,7 @@
 			<key>name</key>
 			<string>JS &amp; TS Operators</string>
 			<key>scope</key>
-			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, constant.language.nan.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.operator.arithmetic.js, keyword.operator.assignment.js, keyword.control.conditional.js, keyword.operator.logical.js, keyword.operator.comparison.js, keyword.control.loop.in.es, keyword.control.flow.js, keyword.control.flow.throw.es, keyword.control.flow.continue.es, keyword.control.loop.of.es, keyword.operator.new.js, keyword.control.loop.js, keyword.operator.relational.js, keyword.operator.spread.es, keyword.operator.bitwise.logical.and.es, keyword.operator.bitwise.logical.or.es, keyword.operator.bitwise.logical.not.es, keyword.operator.bitwise.logical.xor.es, keyword.operator.bitwise.shift.left.es, keyword.operator.bitwise.shift.right.es, keyword.control.import.ts, keyword.control.from.ts, keyword.control.export.ts, keyword.operator.assignment.ts, keyword.control.conditional.ts, punctuation.decorator.ts, keyword.control.flow.ts, keyword.operator.expression.of.ts, keyword.operator.arithmetic.ts, keyword.operator.comparison.ts, keyword.control.as.ts, keyword.operator.optional.ts, keyword.operator.new.ts, keyword.operator.expression.typeof.ts, keyword.operator.ternary.ts, keyword.operator.logical.ts, meta.decorator.ts meta.function-call.ts entity.name.function.ts</string>
+			<string>keyword.operator.arithmetic.addition.es, keyword.operator.arithmetic.subtraction.es, keyword.operator.arithmetic.multiplication.es, keyword.operator.arithmetic.division.es, keyword.operator.arithmetic.modulo.es, keyword.operator.arithmetic.increment.postfix.es, keyword.operator.arithmetic.decrement.postfix.es, keyword.operator.assignment.es, keyword.operator.assignment.augmented.arithmetic.addition.es, keyword.operator.assignment.augmented.arithmetic.subtraction.es, keyword.operator.assignment.augmented.arithmetic.multiplication.es, keyword.operator.assignment.augmented.arithmetic.division.es, keyword.operator.assignment.augmented.arithmetic.modulo.es, keyword.operator.comparison.equality.coercive.es, keyword.operator.comparison.equality.strict.es, keyword.operator.comparison.non-equality.coercive.es, keyword.operator.comparison.non-equality.strict.es, keyword.operator.relational.gt.es, keyword.operator.relational.lt.es, keyword.operator.relational.gte.es, keyword.operator.relational.lte.es, keyword.operator.relational.in.es, keyword.operator.relational.instanceof.es, keyword.operator.logical.and.es, keyword.operator.logical.or.es, keyword.operator.logical.not.es, keyword.operator.ternary.if.es, keyword.operator.ternary.else.es, keyword.operator.unary.typeof.es, keyword.operator.unary.delete.es, keyword.operator.unary.void.es, storage.type.extends.js, storage.modifier.extends.es, keyword.control.conditional.if.es, keyword.control.conditional.else.es, keyword.control.loop.for.es, keyword.control.loop.while.es, storage.modifier.static.es, keyword.control.flow.return.es, keyword.control.flow.return.accessor.es, entity.name.constructor.es, storage.type.accessor.js, storage.modifier.accessor.get.es, storage.modifier.accessor.set.es, keyword.operator.assignment.conditional.default.es, storage.type.module.export.es, storage.type.module.import.es, storage.modifier.module.from.es, storage.modifier.module.default.es, storage.modifier.module.as.es, keyword.operator.new.es, constant.language.nan.es, keyword.control.flow.break.es, keyword.control.switch.es, keyword.control.switch.case.es, keyword.control.switch.case.default.es, keyword.operator.arithmetic.js, keyword.operator.assignment.js, keyword.control.conditional.js, keyword.operator.logical.js, keyword.operator.comparison.js, keyword.control.loop.in.es, keyword.control.flow.js, keyword.control.flow.throw.es, keyword.control.flow.continue.es, keyword.control.loop.of.es, keyword.operator.new.js, keyword.control.loop.js, keyword.operator.relational.js, keyword.operator.spread.es, keyword.operator.bitwise.logical.and.es, keyword.operator.bitwise.logical.or.es, keyword.operator.bitwise.logical.not.es, keyword.operator.bitwise.logical.xor.es, keyword.operator.bitwise.shift.left.es, keyword.operator.bitwise.shift.right.es, keyword.control.import.ts, keyword.control.from.ts, keyword.control.export.ts, keyword.operator.assignment.ts, keyword.control.conditional.ts, punctuation.decorator.ts, keyword.control.flow.ts, keyword.operator.expression.of.ts, keyword.operator.arithmetic.ts, keyword.operator.comparison.ts, keyword.control.as.ts, keyword.operator.optional.ts, keyword.operator.new.ts, keyword.operator.expression.typeof.ts, keyword.operator.ternary.ts, keyword.control.default.ts, keyword.operator.logical.ts, keyword.control.loop.ts, keyword.operator.expression.in.ts, keyword.operator.spread.ts, keyword.operator.type.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -236,9 +236,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS &amp; TS Class</string>
+			<string>JS &amp; TS Class &amp; Interfaces</string>
 			<key>scope</key>
-			<string>entity.name.class.js, entity.name.class.es, entity.name.type.class.ts, meta.class.ts entity.name.type.ts, entity.name.type.ts</string>
+			<string>entity.name.class.js, entity.name.class.es, entity.name.type.class.ts, meta.class.ts entity.name.type.ts, entity.name.type.ts, entity.name.type.interface.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -275,7 +275,7 @@
 			<key>name</key>
 			<string>JS &amp; TS Reserved words</string>
 			<key>scope</key>
-			<string>constant.language.boolean.true.es, constant.language.boolean.false.es, constant.language.boolean.true.js, constant.language.boolean.false.js, constant.language.null.es, constant.language.undefined.es, constant.language.boolean.true.ts, constant.language.boolean.false.ts</string>
+			<string>constant.language.boolean.true.es, constant.language.boolean.false.es, constant.language.boolean.true.js, constant.language.boolean.false.js, constant.language.null.es, constant.language.undefined.es, constant.language.boolean.true.ts, constant.language.boolean.false.ts, constant.language.null.ts, constant.language.undefined.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -301,7 +301,7 @@
 			<key>name</key>
 			<string>JS &amp; TS Object Property</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.property.es, constant.other.object.key.js, string.unquoted.label.js, variable.other.readwrite.property.object-literal.es, meta.object-literal.key.js, meta.property.object.js, meta.object-literal.key.ts, variable.other.object.property.ts, variable.other.property.ts, meta.class.ts variable.object.property.ts</string>
+			<string>variable.other.readwrite.property.es, constant.other.object.key.js, string.unquoted.label.js, variable.other.readwrite.property.object-literal.es, meta.object-literal.key.js, meta.property.object.js, meta.object-literal.key.ts, variable.other.object.property.ts, variable.other.property.ts, meta.class.ts variable.object.property.ts, variable.object.property.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -362,7 +362,7 @@
 			<key>name</key>
 			<string>JS &amp; TS Constants</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.allCap.es, variable.other.constant.ts, variable.other.constant.object.ts</string>
+			<string>variable.other.readwrite.allCap.es, variable.other.constant.ts, variable.other.constant.object.ts, variable.other.constant.property.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>

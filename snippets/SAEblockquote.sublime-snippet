@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<blockquote class="${1:tipo}">
-	<h1 class="tituloQuote">${2:titulo}</h1>
-</blockquote>
-]]></content>
-	<tabTrigger>bqt</tabTrigger>
-	<scope>text.html</scope>
-</snippet>
