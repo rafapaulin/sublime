@@ -23,6 +23,7 @@
 		"Package Control",
 		"PackageResourceViewer",
 		"PHP Companion",
+		"Sass",
 		"SASS Snippets",
 		"SideBarEnhancements",
 		"Sublime-CSS3",
@@ -30,7 +31,6 @@
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
-		"Syntax Highlighting for Sass",
 		"TypeScript Syntax"
 	],
 	"repositories":
