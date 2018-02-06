@@ -199,9 +199,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JS &amp; TS this Keyword</string>
+			<string>JS &amp; TS this &amp; super Keyword</string>
 			<key>scope</key>
-			<string>source.js source.es variable.language.this.es, variable.language.this.js, variable.language.this.ts</string>
+			<string>source.js source.es variable.language.this.es, variable.language.this.js, variable.language.this.ts, variable.language.super.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -821,7 +821,7 @@
 			<key>name</key>
 			<string>PHP Constants</string>
 			<key>scope</key>
-			<string>support.constant.core.php, support.constant.ext.php, constant.other.php, constant.other.class.php, constant.class.php</string>
+			<string>support.constant.core.php, support.constant.ext.php, constant.other.php, constant.other.class.php, constant.class.php, support.constant.std.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
