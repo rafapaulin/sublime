@@ -948,7 +948,7 @@
 			<key>name</key>
 			<string>CSS&#x2f;Sass Support Functions</string>
 			<key>scope</key>
-			<string>support.function.sass, support.function.rgba.css, support.function.calc.css, support.function.url.css, support.function.linear-gradient.css, support.function.rgba.sass, support.function.calc.sass, support.function.url.sass, support.function.linear-gradient.sass, support.function.cubic-bezier.css, support.function.scale.css, support.function.rotate.css, support.function.hsla.css, support.function.hsla.css, support.function.color-adjuster-rgb.css, support.function.format.css, support.function.name.sass</string>
+			<string>support.function.sass, support.function.rgba.css, support.function.calc.css, support.function.url.css, support.function.linear-gradient.css, support.function.rgba.sass, support.function.calc.sass, support.function.url.sass, support.function.linear-gradient.sass, support.function.cubic-bezier.css, support.function.scale.css, support.function.rotate.css, support.function.hsla.css, support.function.hsla.css, support.function.color-adjuster-rgb.css, support.function.format.css, support.function.name.sass, support.function.misc.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -972,7 +972,7 @@
 			<key>name</key>
 			<string>CSS&#x2f;Sass Operators</string>
 			<key>scope</key>
-			<string>keyword.operator.css.sass, keyword.operator.combinator.css, keyword.operator.combinator.sass, keyword.control.at-rule.media.css, source.sass keyword.control.at-rule.sass, keyword.control.untitled, keyword.operator.logic.media.css, keyword.other.important.css, keyword.operator.arithmetic.css, keyword.control.at-rule.supports.css, keyword.control.at-rule.font-face.css, keyword.operator.sass, keyword.control.at-rule.css.sass</string>
+			<string>keyword.operator.css.sass, keyword.operator.combinator.css, keyword.operator.combinator.sass, keyword.control.at-rule.media.css, source.sass keyword.control.at-rule.sass, keyword.control.untitled, keyword.operator.logic.media.css, keyword.other.important.css, keyword.operator.arithmetic.css, keyword.control.at-rule.supports.css, keyword.control.at-rule.font-face.css, keyword.operator.sass, keyword.control.at-rule.css.sass, meta.selector.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
