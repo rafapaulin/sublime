@@ -31,18 +31,18 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment.block, comment.line.es, comment.block.es, meta.comment.border.es, punctuation.definition.comment.end.es, comment.line.double-slash.php, comment.block.php, comment.line.double-slash.js, comment.block.json, comment.block.twig, comment.block.sass, comment.line.double-slash.sass, comment.line.double-slash.ts, comment.dockerfile</string>
+			<string>comment.block, comment.line.es, comment.block.es, meta.comment.border.es, punctuation.definition.comment.end.es, comment.line.double-slash.php, comment.block.php, comment.line.double-slash.js, comment.block.json, comment.block.twig, comment.block.sass, comment.line.double-slash.sass, comment.line.double-slash.ts, comment.dockerfile, comment.line.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#666</string>
+				<string>#666666</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Basic Text</string>
 			<key>scope</key>
-			<string>text.html.basic, source.js, source.es, text.html.twig, text.blade, text.html.blade, source.ts, source.dockerfile</string>
+			<string>text.html.basic, source.js, source.es, text.html.twig, text.blade, text.html.blade, source.ts, source.dockerfile, source.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
