@@ -1,0 +1,14 @@
+// SublimeLinter Settings - User
+{
+	"linters": {
+		"eslint": {
+			"disable": false,
+		}
+	},
+	// "paths": {
+	// 	"windows": [
+	// 		"/c/Program Files/nodejs/node",
+	// 		"/c/Users/r.paulin/AppData/Roaming/npm/eslint",
+	// 	],
+	// },
+}
