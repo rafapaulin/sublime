@@ -35,6 +35,7 @@
 		"SublimeLinter-eslint",
 		"SublimeLinter-json",
 		"SublimeLinter-php",
+		"SublimeLinter-tslint",
 		"TypeScript Syntax"
 	],
 	"repositories":

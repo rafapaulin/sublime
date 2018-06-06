@@ -28,5 +28,8 @@
 	{ "keys": ["ctrl+shift+alt+c", "o"], "command": "git_gutter_compare_origin" },
 	{ "keys": ["ctrl+shift+alt+c", "c"], "command": "git_gutter_compare_commit" },
 	{ "keys": ["ctrl+shift+alt+c", "b"], "command": "git_gutter_compare_branch" },
-	{ "keys": ["ctrl+shift+alt+c", "t"], "command": "git_gutter_compare_tag" }
+	{ "keys": ["ctrl+shift+alt+c", "t"], "command": "git_gutter_compare_tag" },
+
+// Projects
+	{ "keys": ["ctrl+alt+p"], "command": "prompt_select_workspace" }
 ]

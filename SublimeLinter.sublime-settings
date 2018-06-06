@@ -3,12 +3,11 @@
 	"linters": {
 		"eslint": {
 			"disable": false,
+			"selector": "source.es, source.js",
+		},
+		"tslint": {
+			"disable": false,
+			"selector": "source.ts",
 		}
 	},
-	// "paths": {
-	// 	"windows": [
-	// 		"/c/Program Files/nodejs/node",
-	// 		"/c/Users/r.paulin/AppData/Roaming/npm/eslint",
-	// 	],
-	// },
 }
