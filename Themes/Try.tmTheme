@@ -201,7 +201,7 @@
 			<key>name</key>
 			<string>JS &amp; TS this &amp; super Keyword</string>
 			<key>scope</key>
-			<string>source.js source.es variable.language.this.es, variable.language.this.js, variable.language.this.ts, variable.language.super.ts</string>
+			<string>source.js source.es variable.language.this.es, variable.language.this.js, variable.language.this.ts, variable.language.super.ts, meta.decorator.ts entity.name.function.ts, punctuation.decorator.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -312,7 +312,7 @@
 			<key>name</key>
 			<string>JS &amp; TS Support</string>
 			<key>scope</key>
-			<string>support.variable.builtin.es, entity.name.statement.es, support.type.object.console.js, support.function.dom.js, support.class.builtin.es, support.variable.node.module.es, support.variable.node.es, variable.language.arguments.es, support.class.js, support.class.console.ts, support.function.ts, support.class.builtin.ts, support.variable.property.ts, support.constant.json.ts, support.function.json.ts, support.function.promise.ts</string>
+			<string>support.variable.builtin.es, entity.name.statement.es, support.type.object.console.js, support.function.dom.js, support.class.builtin.es, support.variable.node.module.es, support.variable.node.es, variable.language.arguments.es, support.class.js, support.class.console.ts, support.function.ts, support.class.builtin.ts, support.variable.property.ts, support.constant.json.ts, support.function.json.ts, support.function.promise.ts, support.function.math.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -362,7 +362,7 @@
 			<key>name</key>
 			<string>JS &amp; TS Constants</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.allCap.es, variable.other.constant.ts, variable.other.constant.object.ts, variable.other.constant.property.ts</string>
+			<string>variable.other.readwrite.allCap.es, variable.other.constant.ts, variable.other.constant.object.ts, variable.other.constant.property.ts, support.constant.math.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -375,13 +375,50 @@
 			<key>name</key>
 			<string>JS &amp; TS DOM</string>
 			<key>scope</key>
-			<string>support.variable.dom-library.es, punctuation.dollar.js, support.type.object.dom.js, support.variable.dom.es, support.function.dom.ts, support.variable.property.dom.ts</string>
+			<string>support.variable.dom-library.es, punctuation.dollar.js, support.type.object.dom.js, support.variable.dom.es</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#F29122</string>
 				<key>fontStyle</key>
 				<string> bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>TS Variable DOM</string>
+			<key>scope</key>
+			<string>support.variable.dom.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C47FDB</string>
+				<key>fontStyle</key>
+				<string> italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>TS Variable property DOM</string>
+			<key>scope</key>
+			<string>support.variable.property.dom.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C47FDB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>TS Support Function DOM</string>
+			<key>scope</key>
+			<string>support.function.dom.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string> bold</string>
+				<key>foreground</key>
+				<string>#C47FDB</string>
 			</dict>
 		</dict>
 		<dict>
