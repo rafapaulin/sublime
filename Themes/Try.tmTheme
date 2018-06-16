@@ -974,7 +974,7 @@
 			<key>name</key>
 			<string>CSS&#x2f;Sass RGB</string>
 			<key>scope</key>
-			<string>constant.other.color.rgb-value.css, support.constant.color.w3c-color-name.css, constant.other.rgb-value.sass, support.constant.color.w3c-color-name.sass, constant.other.color.rgb-value.css</string>
+			<string>constant.other.color.rgb-value.css, support.constant.color.w3c-color-name.css, constant.other.rgb-value.sass, support.constant.color.w3c-color-name.sass, support.constant.color.w3c-standard-color-name.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
